@@ -113,13 +113,62 @@ class NYStyleVeggiePizza extends Pizza {
 ///////////////////// Pizza Store////////////////////////
 /*------------------------------------------------------*/
 
+abstract class PizzaStore {
+  public Pizza orderPizza(String type) {
+    Pizza pizza;
+    pizza = createPizza(type);
+
+    pizza.prepare();
+    pizza.bake();
+    pizza.cut();
+    pizza.box();
+    return pizza;
+  }
+
+  protected abstract Pizza createPizza(String type);
+
+}
+
+class NYPizzaStore extends PizzaStore {
+
+  @Override
+  protected Pizza createPizza(String type) {
+
+    Pizza pizza = null;
+    if (type.equals("cheese")) {
+      pizza = new NYStyleCheesePizza();
+    } else if (type.equals("veggie")) {
+      pizza = new NYStyleVeggiePizza();
+    }
+
+    return pizza;
+  }
+
+}
+
+class ChicagoPizzaStore extends PizzaStore {
+
+  @Override
+  protected Pizza createPizza(String type) {
+    Pizza pizza = null;
+    if (type.equals("cheese")) {
+      pizza = new ChicagoStyleCheesePizza();
+    } else if (type.equals("veggie")) {
+      pizza = new ChicagoStyleVeggiePizza();
+    }
+
+    return pizza;
+  }
+
+}
+
 /*------------------------------------------------------*/
 ///////////////////// Pizza Store////////////////////////
 /////////////////////////////////////////////////////////
 /*------------------------------------------------------*/
 
 class FromThis {
-  public void run() {
+  public static void run() {
     System.out.println("FromThis -----> start");
     PizzaStore nyStore = new NYPizzaStore();
     PizzaStore chicagoStore = new ChicagoPizzaStore();
@@ -136,8 +185,12 @@ class FromThis {
 public class FactoryMethod {
 
   public static void main(String[] args) {
+    run();
+  }
+
+  public static void run() {
     System.out.println("Factory Method");
-//    FromPackage.run();
+    FromThis.run();
     System.out.println("Done done");
   }
 

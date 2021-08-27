@@ -2,10 +2,10 @@ package create.factory;
 
 public class FactoryMain {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("");
-		System.out.println("");
-	}
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    System.out.println("");
+    System.out.println("");
+  }
 
 }
