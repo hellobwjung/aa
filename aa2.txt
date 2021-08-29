@@ -1,0 +1,480 @@
+
+
+
+        
+ 
+   최영준(16013368)
+       
+
+ 
+평가 시간 정보
+
+평가 시작 시간
+
+2021년 02월 05일 13:30
+
+
+평가 종료 시간
+
+2021년 02월 05일 17:30
+
+남은 시간  00   00   14 
+응시 안내
+1. 17:30에 평가가 종료되며,그 전에 '답안저장' 혹은 '제출'해주시기 바랍니다.- '답안저장' 혹은 '제출'을 누르지않으면 작성한 답안이 제출되지않습니다.- 시간이 경과하여 평가가 종료된경우, 마지막으로 '답안저장' 한답안이 제출됩니다.2. 평가 시작 후에는 평가를 중단할 수없습니다.연락처 : 최강원
+(kangwon.choi@samsung.com) 
+
+ 
+
+
+2020-21년 Associate Architect 양성과정 추가 선발 평가(2차) 
+
+
+
+
+
+OOAD 기본  
+1. OOAD (Object-Oriented Analysis and Design)에 대한 다음의 설명 중 가장 올바르지 않은 것은? 
+➀ OOA(Object-Oriented Analysis)는 해당 도메인에서 사용되는 Concepts/Objects를 찾는 단계이다.   
+➁ OOD(Object-Oriented Design)는 개발할 Software Object을 정확하게 정의하는 단계이다.   
+➂ OOD에서는 시스템을 구성하는 Object들 간의 통신(Communication)을 정의한다.   
+➃ OOD에서는 사용할 데이터의 구조와 흐름 (Data Structure & Flow)을 명확하게 정의해야 한다.
+
+4
+
+2. 소프트웨어 개발방법론에 대한 다음의 설명 중 가장 올바르지 않은 것은? 
+➀ OOAD (Object-Oriented Analysis and Design) 방법론을 효과적으로 적용할 수 있는 응용 도메인이 있다.   
+➁ 모든 응용 도메인은 종류와 상관없이, OOAD와 SASD 방법론 중 원하는 것을 선택해서 적용 및 개발할 수 있다.   
+➂ 일반적으로, Object-Oriented SW를 개발할 때, Waterfall 보다는 Iterative한 개발 방식이 보다 효과적이다.   
+➃ Object-Oriented SW를 개발할 때, Waterfall 방식의 전통적인 개발 방법론을 사용하면 비효율적이다.   
+
+4
+
+
+3. 다음은 UML을 구성하는 다양한 다이어그램을 Class Diagram을 이용해서 정리한 그림이다. 이들 중 3개만 OOAD에서 사용할 수 있다고 한다면, 어떤 다이어그램을 선택하는 것이 가장 효과적일까요?
+
+ 
+➀ Class – Package – Sequence   
+➁ Use Case – Class – Communication   
+➂ Sequence – State Machine – Use Case   
+➃ Component – Sequence – Class   
+
+2
+
+
+4. UP 기반 OOAD 방법론에 대한 다음의 설명 중 가장 올바르지 않은 것은? 
+➀ Risk-driven 하고 Architecture-centric하고 Client-centric 한 개발 방법론이다.   
+➁ Architecture 관점에서 발생할 수 있는 Risk를 미리 줄이는 것을 중요하게 생각한다.   
+➂ SW Architecture가 개발기간 초기에 바뀌는 Risk를 줄이고자 한다.   
+➃ Risk를 줄이려는 목적을 가지고 Requirements Workshop을 개최한다.   
+
+3
+
+5. 다음은 UP의 Inception 단계에 대한 설명이다. 올바른 것은? 
+➀ 기술적 문제 등을 확인하거나 요구사항을 명확하게 이해하기 위해, 필요한 경우 Prototype을 만들어 볼 수 있다.   
+➁ Functional requirements에 해당되는 모든 Use-Case를 모두 찾고 자세히 정의한다.   
+➂ Client, Architect, 개발자 등 모든 과제 관련자들이 참가하는 Requirements Workshop을 개최한다.   
+➃ Architecture 측면에서 발생할 수 있는 Risk는 Elaboration 단계가 시작되면 본격적으로 찾는다.   
+
+1
+
+
+6. UP Use-Case에 대한 다음의 설명 중 올바른 것은? 
+➀ Use-Case는 가능하면 개발 범위 밖에 있는 UI, HW 등에 Independent하게 작성하는 것이 좋다.   
+➁ Use-Case는 UP의 모든 Iteration에서 항상 Fully-Dressed 포맷으로 작성하는 것이 바람직하다.   
+➂ Use-Case는 시스템이 내부적으로 어떻게 동작할 지에 대해서까지 자세히 작성할수록 좋다.   
+➃ Use-Case는 UP Construction Phase까지 지속적으로 Refinement해야 한다.   
+
+1
+
+
+7. 다음의 Domain Model에 대한 설명 중 올바르지 않은 것은? 
+➀ Domain Model은 DCD (Design Class Diagram)과 일부 Notation을 공유하지만 DCD는 아니다.   
+➁ Domain Model을 그림으로써 앞으로 개발할 SW가 어떤 환경에서 사용될 지를 가늠할 수 있다.   
+➂ Domain Model에는 나중에 SW로 구현되지 않는 다양한 Conceptual/Business Classes(Objects)가 포함된다.   
+➃ Domain Mode은 Design Class Diagram의 초기버전 (Preliminary Version) 이다.   
+
+
+4
+
+8. 다음의 System Sequence Diagram에 대한 설명 중 가장 올바르지 않은 것은? 
+➀ External Actor와 System 간의 모든 Interaction을 System Operation으로 선정한다.   
+➁ UML 2.0을 구성하는 다이어그램은 아니다.   
+➂ Sequence Diagram을 System과 External Actor 수준에서 작성한다.   
+➃ System 전체와 External Actors 사이의 Interaction을 분석하는 모델이다.   
+
+1
+
+9. Object-Oriented Design에 대한 다음의 설명 중 올바르지 않은 것은? 
+➀ Structure Diagram은 Class나 Package를 정의하는데 도움이 되며, Class Diagram, Package Diagram, Component Diagram 등이 해당된다.   
+➁ Behavior Diagram은 Method나 로직 등을 정의하는데 도움이 되며, Interaction Diagrams, Statechart Diagram, Activity Diagram 등이 해당된다.   
+➂ Class Diagram으로부터 Skeleton Code를 생성하고 구현(Implementation)을 시작하므로, Class Diagram이 가장 중요한 Object Design Model이다.   
+➃ UP 기반의 OOAD에서는, 현(現) Iteration에서 개발할 Use Cases에 대해서, Sequence Diagrams과 Class Diagram을 반복적(Iterative)이고 점증적(Incremental)으로 작성한다.  
+
+3
+
+
+10. Visibility에 대한 다음의 설명 중 가장 올바른 것은? 
+➀ Visibility는 한 Object이 다른 Object에 정의된 모든 Public한 Attributes와 Operations을 볼 수 있는 능력(Ability)을 의미한다.   
+➁ Object A에서 Object B로 메시지를 보낼 때, B는 A를 볼 수 (Visible) 있어야 한다.   
+➂ Attribute Visibility는 가장 기본적이고 많이 사용되는 Visibility로서, Sequence Diagram을 통해서는 확인할 수 없고, Class Diagram을 봐야 알 수 있다.   
+➃ Local Visibility를 가지기 위해서는 Singleton Design Pattern을 사용하는 것이 좋다.   
+
+1
+
+
+11. 다음의 Statechart Diagram에서, start, e9, e2, e4, e7, e10, e8의 순서로 이벤트가 차례대로 발생되는 경우, 최종적으로 도달된 상태는 무엇인가요?
+ 
+
+(최대길이 : 4000) 
+s3.1  
+12. 다음의 Sequence Diagram에서 해석 가능한 모든 Order of Messages는 몇개인가요? 
+
+ 
+
+(최대길이 : 4000) 
+7개  
+13. 다음의 Class Diagram에서 “Private”으로 정의되는 Operation은 모두 몇 개가 정의되나요? 
+
+ 
+
+(최대길이 : 4000) 
+1개  
+14. 다음은 어떤 Basic Principle of Object-Oriented를 설명하는 것인가요?
+
+“The ability to hide many different implementation behind a single interface. The same word or phrase can mean different things in different contexts.” 
+
+(최대길이 : 4000) 
+polymorphism  
+15. 가장 널리 사용되는 3 Layered Architecture를 기준으로, Application Logic and Domain Objects Layer에 해당하는 SW를 개발하고 있습니다. 다음의 그림을 보고, Cashier로부터 시작된 system operation “endSale( )”이 어떤 과정을 거쳐 Application Logic and Domain Objects Layer까지 도달하고 다시 리턴 되는지를 상세히 설명하세요. 단, UP Construction Phase에 있다고 가정하며, 반드시 이를 고려하세요.
+
+ 
+
+(최대길이 : 4000) 
+Cashier는 sale을 종료시키기 위해 UI를 통해 endSale을 호출하게 됩니다. 그럼 이 UI를 통해 domain의 endSale이 호출되고, domain에서는 sale을 종료하고 기존에 입력됐던 item list를 제거하게 됩니다.  
+16. 다음은 일반적인 UP Development Case를 설명하는 그림입니다. Supplementary Specification이 Construction Phase에서 빈칸으로 되어 있는데, 그 빈칸의 의미와 빈칸이 된 이유를 각각 설명하세요.
+
+ 
+
+(최대길이 : 4000) 
+requirement가 elaboration 단계까지는 계속해서 변경이 되다가 elaboration이 끝나면 requirement는 fix되고 fix된 requirement는 더 이상 변경되면 안되기 때문입니다. 따라서 requirement가 construction phase에서 더이상의 변경이 이루어지면 안된다는 의미로 빈칸으로 되어 있습니다.  
+17. 다음의 Sequence Diagram을 보고, System Operation “aaa( )”의 body를 수도코드 수준으로 작성하세요
+
+ 
+
+(최대길이 : 4000) 
+int aaa()
+{
+	B b_object;
+
+	int ack = b_object.b();
+
+	if (ack == OK)
+	{
+		C c_object;
+		int c_return = c_object.d();
+
+		B b_object;
+		int cc = b_object.e();
+
+		return cc;
+	}
+
+	return dd;
+}  
+18. 다음은 학생이 학교 시스템의 “포털”에 로그인 한 후 수강신청을 하는 “수강신청” Use-Case에 대한 Casual Format의 Description입니다. 학교 시스템은 “포털”과 “학사시스템” 및 “학사DB”로 구성되어 있습니다. “포털”은 Interface로서 Authentication과 Dashboard 역할을 담당하고, “학사DB”는 수강신청 관련 정보를 저장합니다. 학생이 수강신청을 하기 위해서는, 먼저 "포털"에 로그인한 후, "학사시스템"으로 이동해야 합니다. 이 Use-Case를 온전히 반영하는 Sequence Diagram을 모델링하세요.
+
+ 
+
+ 찾아보기...  
+현재 첨부되어 있는 파일 : 16013368_최영준_OOAD 기본_설계형18.png  
+ 
+19. (문항18)의 Use-Case와 Sequence Diagram을 Activity Diagram으로 모델링 하세요. 
+
+ 찾아보기...  
+현재 첨부되어 있는 파일 :   
+ 
+20. (문항18)의 Sequence Diagram을 온전하게 반영하는 Class Diagram을 모델링 하세요. 
+
+ 찾아보기...  
+현재 첨부되어 있는 파일 : 16013368_최영준_OOAD 기본_설계형20.png  
+ 
+Design Pattern 기본  
+1. 설계 패턴에 대한 설명으로 옳지 않은 것은? 
+➀ 싱글턴(singleton) 패턴은 관점에 따라 설계 패턴이 아니라 코딩 패턴으로 분류되는 경우도 있다.   
+➁ 일반적으로 설계 패턴은 바로 불러 쓸 수 있는 코드 형태의 라이브러리(library)로 배포되며, 이중 가장 인기있는 것이 GoF 패턴이라 불린다.   
+➂ 프레임워크(framework)는 설계패턴과 동일한 개념은 아니지만 많은 프레임워크의 설계에 다수의 설계패턴이 도입된 것을 발견할 수 있다.   
+➃ 설계 패턴에 관한 아이디어는 크리스토퍼 알렉산더가 건축 분야의 설계 패턴을 카탈로그화 함으로써 먼저 시작되었고 그 후 소프트웨어 분야로도 전파되었다.   
+
+2
+
+
+2. 좋은 설계를 이끌어내는 지침으로 가장 옳은 것은? 
+➀ 객체 구성(object composition)을 사용할 때 상속(inheritance)도 함께 쓰는 것이 좋다.   
+➁ 구체 클래스를 만들 때 또 다른 구체 클래스(concrete class)로부터 상속받기보다는 추상 클래스(abstract class)에서 상속받는 것이 더 바람직하다.   
+➂ 서로 관련성이 없는 다수의 메쏘드들에 대한 정의가 필요한 경우 임의의 클래스를 만들어(예를 들어 Misc 클래스) 그곳에 모두 묶어(group)주는 것이 응집도(cohesion) 향상에 도움을 준다.   
+➃ 하나의 클래스에는 메쏘드를 한 개만 두는 것이 좋고 이를 SRP라고 칭한다.   
+
+2
+
+3. 다음 상황과 가장 밀접한 설계 악취(design smell)를 고르시오.
+
+“시스템의 어느 한 부분을 수정했는데 전혀 관련되지 않다고 생각한 다른 부분이 잘못 동작한다.” 
+➀ 불투명성(opacity)   
+➁ 불필요한 복잡성(needless complexity)   
+➂ 부동성(immobility)   
+➃ 취약성(fragility)   
+
+2  답은 4인 듯
+
+
+4. 널 오브젝트 (Null Object) 패턴에 대해 올바르지 않은 것은? 
+➀ 조건문(conditional statements)을 감소시키는 효과가 있다.   
+➁ GoF 패턴에는 속하지 않는다.   
+➂ Null Iterator의 hasNext() 메쏘드는 무조건 false를 리턴한다.   
+➃ Null 값을 활용하여 시스템 내의 객체 갯수를 줄일 수 있는 패턴이다.   
+
+4
+
+
+5. 다음 클래스 다이어그램에 대해 가장 올바른 설명은?
+➀ Client1 클래스는 ConcServer 클래스에 의존한다.   
+➁ ConcServer 클래스는 Client2 클래스에 의존한다.   
+➂ Server 클래스의 변경은 다시 Client1 클래스의 변경을 유발할 수 있다.   
+➃ Client2 클래스의 op3 메쏘드가 ConcServer 클래스의 op1 메쏘드를 호출한다.   
+
+3
+
+
+6. 객체 합성(object composition)과 위임(delegation)을 통해 동작하는 패턴을 모두 고른 것은?
+(a) 상태 (state) 패턴
+(b) 장식자 (decorator) 패턴
+(c) 빌더 (builder) 패턴 
+➀ (a), (b)   
+➁ (a), (c)   
+➂ (b), (c)   
+➃ (a), (b), (c)   
+
+4
+
+
+7. UML에 대한 설명으로 가장 옳은 것은? 
+➀ 추상 클래스(abstract class)의 직접적 인스턴스(direct instance)를 만들 수 있다.   
+➁ 추상 클래스(abstract class)는 구체 클래스(concrete class)에 비해 변경이 빈번하다.   
+➂ 어떤 클래스가 추상 클래스(abstract class)라면 반드시 추상 메쏘드(abstract method)를 하나 이상 포함해야 한다.   
+➃ 어떤 클래스가 추상 메쏘드(abstract method)를 포함하면 해당 클래스는 반드시 추상 클래스(abstract class)로 정의되어야 한다.   
+
+4
+
+
+8. 팩토리 메쏘드(Factory method)에 대한 설명으로 옳은 것을 모두 고르면?
+
+(a) 객체 생성 인터페이스를 정의하기 위한 디자인 패턴이다. 
+(b) 부모 클래스에서는 객체를 만드는 인터페이스를 정의하고, 서브 클래스에서는 구체적인 인스턴스를 생성하도록한다. 
+(c) 패턴 구현시 내부적으로 전략패턴을 사용한다. 
+➀ (a), (b)   
+➁ (a), (c)   
+➂ (b), (c)   
+➃ (a), (b), (c)   
+
+
+4 답은 1인 득
+
+9. 설계패턴에 대한 설명으로 옳은 것을 모두 고르면?
+
+(a) 간결한(simple) 설계로도 요구 사항의 만족이 가능하다면 가급적 설계 패턴을 쓰지 않고 단순하게 SW를 만드는 것이 좋다. 
+(b) 테스트 주도 개발(Test-driven development) 방법을 적절히 활용하면 변경되는 요구 사항에 대해 변화가 필요한 코드를 발견하는데 도움이 된다. 
+➀ (a)   
+➁ (b)   
+➂ (a), (b)   
+➃ 답 없음   
+
+1
+
+
+10. "서브 클래스(subclass)는 부모 클래스(superclass)의 전제조건(precondition)을 유지하거나 약화(weaken)시켜야 한다"는 조건과 가장 관련이 깊은 설계 원칙은? 
+➀ Information Expert   
+➁ Pure Fabrication   
+➂ Liskov’s Substitution Principle   
+➃ Interface Segregation Principle   
+
+2  답은 3인 듯
+
+
+11. 다음 코드에 적용된 GoF 패턴 이름을 최대한 상세하게 쓰시오. 
+
+abstract class DrinkMachine {
+  public abstract Drink dispenseDrink();
+  public void serve( ) {
+    Drink d = dispenseDrink( );
+    System.out.println(“Now serving “ + d);
+  }
+}
+
+class CoffeeMachine extends DrinkMachine { 
+  public Drink dispenseDrink() { return new Coffee(); }
+}
+
+class SoftDrinkMachine extends DrinkMachine { 
+  public Drink dispenseDrink() { return new Cola(); }
+}
+
+interface Drink { }
+
+class Coffee implements Drink { 
+  String toString( ) { return “Coffee”; }
+}
+
+class Cola implements Drink { 
+  String toString( ) { return “Cola”; }
+} 
+
+(최대길이 : 4000) 
+factory method pattern  
+12. 다음 클래스 다이어그램에서 C3를 변경했을 때, 그 영향을 받을 수 있는 모든 클래스와 인터페이스를 나열하시오. (단 그림에 나타나지 않은 hidden coupling은 없다고 가정한다)
+
+
+
+ 
+
+(최대길이 : 4000) 
+A2, A1, C2  
+13. 다음 클래스 다이어그램을 자바 혹은 C++로 구현했을 때, 에러없이 컴파일되는 코드를 모두 고르시오.
+
+
+
+
+
+(a) A1 a = new C2( ); // in Java 
+  A1 *a = new C2; // in C++
+(b) A1 b = new C3( ); // in Java
+  A1 *b = new C3; // in C++
+(c) A1 c = new C5( ); // in Java
+  A1 *c = new C5; // in C++
+(d) C1 d = new C3( ); // in Java
+  C1 *d = new C3; // in C++
+(e) C1 e = new C2( ); // in Java
+  C1 *e = new C2; // in C++
+(f) Int1 f = new C4( ); // in Java
+  Int1 *f = new C4; // in C++
+(g) Int2 g = new C1( ); // in Java
+  Int2 *g = new C1; // in C++
+(h) Int2 h = new C3( ); // in Java
+  Int2 *h = new C3; // in C++
+(i) Int2 h = new C5( ); // in Java
+  Int2 *h = new C5; // in C++ 
+
+(최대길이 : 4000) 
+(a), (f), (g)  
+14. 아래 그림과 같이 리팩토링하였다. 해당 수정을 통해 직접적으로 만족되는 SOLID 원칙 1개를 쓰시오.
+
+
+
+ 
+
+(최대길이 : 4000) 
+OCP (Open-Closed Principle)  
+15. 다음 설계에서 위반된 SOLID 원칙을 쓰고 이유를 설명하시오. 
+
+
+
+ 
+
+(최대길이 : 4000) 
+LSP 원칙이 위반되었습니다. LSP원칙에 의하면 Person이 Duck의 subtype이 되기 위해서는 Person의 기능 변경 없이 Duck을 대체할 수 있어야 하는데 그것이 불가능합니다. 이 대문에 person에서 지원하지 않는 quack function이 생겼고 항상 exception이 발생하게 되는 것입니다. 즉, Duck과 Person이 IS-A relationship에 있지 않기 때문에 LSP 원칙의 위반이 발생하였습니다.  
+16. 아래 그림을 보고 질문에 답하시오. 
+
+
+
+
+
+(a) 그림이 나타내고 있는 패턴 이름을 쓰시오. 
+(b) addChild, removeChild, getChild 메쏘드의 선언을 현재와 같이 GUIComponent에서 하는 방법은 어떤 장점이 있는지 쓰시오. 
+(c) 위에서 말한 메쏘드 선언 위치에 대한 대안(alternative)은 무엇이고 그것은 어떤 장점이 있는지 쓰시오. 
+
+(최대길이 : 4000) 
+(a): composite pattern
+(b) 모든 component를 동일한 interface(GUICompent)로 처리할 수 있기 때문에 transparency를 제공합니다.
+(c) addChild(), removeChild(), getChild(int index)를 interface(GUIComponent)에서 제거하는 방법이 있습니다. 이 방법을 사용했을 때는 leaf component(Button, TextBox)가 제공하지 않는 동작을 하려고 할 때 compile-time에 에러가 발생한다는 장점이 있습니다.  
+17. 삼성전자 사업장의 지형 지물을 지도(map)로 표시하고, 사용자가 선택한 특정 두 위치 사이의 경로를 안내해주는 프로그램을 개발하였는데, 설계와 구현에서 MVC 패턴을 적용하였다고 가정하자. 프로그램은 윈도우의 기본 프로그램인 그림판과 유사한 그리기 기능을 제공하여 사용자는 지도에 임의의 표시를 할 수도 있다. 
+
+해당 프로그램의 기능을 다음과 같이 변경하고자 한다. (a) ~ (d) 각 경우에 따라 코드 변경이 반드시 필요한 MVC의 컴포넌트 (Model, View, Controller)를 모두 명시하고 이유를 설명하시오. (답안 작성의 예: "(a)의 경우 View만 수정: 이유는 .... , (b)의 경우 Model과 View만 수정: 이유는 ... " 등과 같이 코드 변경이 필요한 컴포넌트(들)과 이유를 포함하여 기재)
+
+(a) 최단 경로 찾기 알고리즘을 수정하여 double 대신 int 타입의 edge weight를 사용하도록 변경한다. 
+(b) 지도에 표시되는 최단 경로의 색상을 기존 녹색에서 파란색으로 변경한다. 
+(c) 응용 프로그램의 창에서 리셋(reset) 버튼을 제거한다. 키보드의 delete 키를 누르면, 기존 리셋 버튼의 역할과 같이 지도에 사용자가 그린 그림을 지운다. 
+(d) 건물 이름이 영문인 경우 지도에는 모두 대문자로 변환하여 표시한다. 
+
+(최대길이 : 4000) 
+(a)Model만 수정, interface 변경 없이 model 내부의 알고리즘만 수정하면 되기 때문에 model만 수정하면 됩니다.
+(b)View만 수정, 최단 경로의 색상을 표시하는 기능은 UI의 일부로서 View에서 구현하는 기능이기 때문에 View만 변경하면 됩니다.
+(c) View만 수정, 해당 기능은 model의 변화와 상관 없이 모두 UI단에서의 문제입니다. 따라서 리셋 버튼 제거 및 delete 키를 눌렀을 때 지도에 사용자가 그린 그림이 지워지도록 view의 수정이 필요합니다.
+(d) View만 수정, model에서 얻은 데이터를 UI에 표시해주는 기능이기 때문에 view만 수정하여 건물 이름이 영문인 경우 대문자로 표시되도록 변경하면 됩니다.  
+18. 어떤 시스템에서 다양한 Collection 타입 클래스들, 예를 들어 LibraryBooks, Students, Departments 등을 다루고 있다. 이들에 저장된 요소(element)를 순회하기 위해 공통된 Iterator 인터페이스를 구현하는 LibraryBooksIterator, StudentsIterator, DepartmentsIterator 클래스를 이미 만들었고 여러 프로그램에서 활용하고 있다. 그런데, 이들 Iterator는 Thread-Safe하지 않기 때문에 추가적으로 Thread-Safe한 기능을 지원하고자 한다. 
+
+개발자 X는 위 문제를 해결하기 위해 기존의 Concrete Iterator 들로부터 상속받아 Thread-Safe한 기능을 제공하는 Iterator 클래스를 개발하자고 제안했다. 예를 들어 LibraryBooksIterator를 상속받아 ThreadSafe_LibraryBooksIterator를 새로 만들고, 해당 클래스의 API를 Thread-Safe하게 만드는 것이다. 
+
+개발자 X가 제안한 방법은 Concrete Iterator의 종류가 늘어날 때마다 Thread-Safe한 버젼을 추가로 만들어야 하는 부담이 있다. 예를 들어 앞에 언급한 LibraryBooksIterator, StudentsIterator, DepartmentsIterator 클래스를 위해 ThreadSafe_LibraryBooksIterator, ThreadSafe_StudentsIterator, ThreadSafe_DepartmentsIterator 클래스가 각기 만들어져야 한다. 
+
+이 방법 대신 설계 패턴을 사용해서 문제를 해결하고자 한다면 (a) 어떤 패턴이 적합할지 말하고, (b) 해당 패턴을 적용한 설계를 C++ 혹은 자바 코드를 이용하여 제시하시오. 단, 기존의 Iterator 클래스들 즉 LibraryBooksIterator, StudentsIterator, DepartmentsIterator에 대해 아무런 수정이 필요 없는 방식으로 설계해야 한다. Concrete Iterator의 종류에 관계없이 Thread-safe한 수행을 보장하는 방법의 가장 간단한 방법은 Concrete Iterator의 각 API 호출에 대해 Java의 synchronized 키워드 등을 이용하여 critical section으로 만들어주는 것임을 이용하여 간단하게 구현하시오. 참고로 Iterator 인터페이스는 다음과 같다.
+
+interface Iterator {
+  boolean hasNext()
+  Object next()
+  void remove()
+} 
+
+ 찾아보기...  
+현재 첨부되어 있는 파일 : 16013368_최영준_Design Pattern 기본_설계형18.txt  
+ 
+19. 다음의 코드를 보고, 템플릿 메쏘드 패턴을 적용하여 리팩토링 하시오.
+
+import java.util.*;
+class SumCalculator {
+  float area = 0;
+  Collection shape;
+  SumCalculator(Collection s) { shape = s; }
+  public void calc() {
+    Iterator i = shape.iterator();
+    area = 0;
+    while (i.hasNext()) {
+      Shape cur = (Shape)(i.hasNext());
+      area += cur.area();
+    }
+  }
+}
+
+class MultCalculator { 
+  float area = 1;
+  Collection shape;
+  MultCalculator(Collection s) { shape = s; }
+  public void calc() {
+    Iterator i = shape.iterator();
+    area = 1;
+    while (i.hasNext()) {
+      Shape cur = (Shape)(i.hasNext());
+      area *= cur.area();
+    }
+  }
+} 
+
+ 찾아보기...  
+현재 첨부되어 있는 파일 : 16013368_최영준_Design Pattern 기본_설계형19.txt  
+ 
+20. (a) 첫번째 스테이트 차트(StateChart)를 보고 상태(State) 패턴을 사용하여 Java 혹은 C++ 언어로 구현하시오. 해당 스테이트 차트에 따라 동작되는 Context 클래스가 있고, 향후 A, B, C 이외의 상태가 추가될 수 있으나 ev1와 ev2과 같은 이벤트는 더 이상 추가되지 않을 것임을 염두에 두시오. 구현시 Context 클래스에 조건문을 사용하여 상태 전이를 구현하지 말고, 각 Concrete State 클래스에서 처리하도록 만드시오. 단, Print는 콘솔에 해당 메시지를 출력하는 행위로 가정하고 코드를 작성하시오. 
+
+(b) 두번째 스테이트 차트에 대해 (a) 문제의 해답을 확장하여 구현하시오. 이때 각 상태에는 entry 및 exit에 따른 액션이 있으며, 같은 이름의 이벤트가 지역 전이(local transition)와 외부 전이(external transition)을 일으키는 경우가 있음을 인지하고 그에 적절하게 이벤트를 처리할 수 있게 구현하시오.
+
+
+
+
+
+
+
+ 
+
+ 찾아보기...  
+현재 첨부되어 있는 파일 : 16013368_최영준_Design Pattern 기본_설계형20.txt  
+ 
+
+
+답안저장 제출 및 평가종료 
