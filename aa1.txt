@@ -10,11 +10,18 @@ OOAD 기본
 ➁ OOA (Object-Oriented Analysis)는 해당 도메인에서 사용되는 Concepts/Objects를 찾는 단계이다.   
 ➂ OOA에서는 해당 도메인 범위 안에 있는 Concepts/Objects을 찾는 데 집중해야 한다.   
 ➃ OOD (Object-Oriented Design)는 개발할 Software Object을 정확하게 정의하는 단계이다.   
+
+3--> 해당 도메인 범웨 밖에 있는 모든
+
+
 2. 소프트웨어 개발방법론에 대한 다음의 설명 중 가장 올바르지 않은 것은? 
 ➀ OOAD (Object-Oriented Analysis and Design) 방법론을 효과적으로 적용할 수 있는 응용 도메인이 있다.   
 ➁ SASD (Structured Analysis and Structured Design) 방법론을 효과적으로 적용할 수 있는 응용 도메인이 있다.   
 ➂ 모든 응용 도메인에 대해, OOAD와 SASD 방법론 중 원하는 것을 선택해서 적용 및 개발할 수 있다.   
 ➃ OOAD는 Object-Oriented 개념에 잘 맞는 응용 도메인에만 적용해야 한다.   
+
+4
+
 3. 다음은 UML을 구성하는 다양한 다이어그램을 Class Diagram을 이용해서 정리한 그림이다. 이들 중 Iterative한 개발 초기에는 사용/정의되지 않고, 중반 이후에만 주로 사용/정의되는 Diagram은 무엇인가요?
 
  
@@ -22,56 +29,100 @@ OOAD 기본
 ➁ Use Case Diagram – Component Diagram   
 ➂ Component Diagram – Deployment Diagram   
 ➃ Class Diagram – Package Diagram   
+
+3. Component diagram - logical, 지금 구현하는것, source file, 개발중 element
+   Package diagram - runtime component, process나 thread
+
+
 4. UP 기반 OOAD 방법론에 대한 다음의 설명 중 가장 올바르지 않은 것은? 
 ➀ Risk-driven 하고 Architecture-centric하고 Client-centric 한 개발 방법론이다.   
 ➁ 여러 Iteration을 반복하므로, 요구사항이 지속적으로 변경되는 것을 허용할 수 있는 방법론이다.   
 ➂ 다양한 SW Architecture를 시도해 봄으로써 Architectural Risk를 줄이고자 한다.   
 ➃ Client가 최종 개발 산출물과 일부 기능에 대해 Reject를 선언하는 Risk를 줄이고자 한다.   
+
+2. elaboration에서 fix
+
 5. 다음은 UP의 Elaboration 단계에 대한 설명이다. 가장 올바르지 않은 것은? 
 ➀ Architecture 측면에서 위험도가 높은 Requirements를 찾고 먼저 구현해서 적절한 SW Architecture를 제안한다.   
 ➁ Requirements는 Use-Case 형태로 정의되며, 모든 Use-Case를 Casual Format 이상의 자세한 수준으로 Refinement하는 것이 중요하다.   
 ➂ Client가 중요하게 생각하는 Requirements를 찾고 먼저 구현해서 Client의 승인을 받는다.   
 ➃ 대부분의 Requirements가 찾아지고 최종적으로 확정 (Stabilized) 된다.   
+
+2. 
+
+
+
 6. Use-Case에 대한 다음의 설명 중 올바른 것은? 
 ➀ Use-Case는 외부 Actors가 개발할 시스템을 어떻게 사용하는지를 묘사한 Text Story이다.   
 ➁ Use-Case Diagram은 시스템의 Boundary를 정의하는 다이어그램으로서 Use-Case의 핵심이다.   
 ➂ Use-Case는 일반적으로 Use-Case Diagram을 의미하며, Diagram을 그리는 것이 가장 중요하다.   
 ➃ Use-Case의 Actors는 시스템 사용하는 외부의 사람(사용자)을 의미하며, 다른 시스템을 지칭하지는 않는다.   
+
+1. 
+
 7. 다음의 Domain Model에 대한 설명 중 올바르지 않은 것은? 
 ➀ Domain Model에는 나중에 SW로 구현되지 않는 다양한 Conceptual/Business Classes(Objects)가 포함된다.   
 ➁ Domain Model이 준비되면 C&C (Completeness & Consistency)를 정확하게 검사한 후 사용한다.   
 ➂ 해당 응용 도메인에 대한 이해를 돕기 위한 모델로서 Class Diagram의 Notation을 사용한다.   
 ➃ OOD에서 Design Class Diagram을 그릴 때 느낄 수 있는 충격 (Semantic Gap)을 줄이기 위한 목표로 사용된다.   
+
+2. 
+
 8. 다음의 System Sequence Diagram에 대한 설명 중 가장 올바르지 않은 것은? 
 ➀ System이 각 System Operation에 대해서 어떻게 내부적으로 동작할 것인가도 고려해서 분석한다.   
 ➁ UML 2.0을 구성하는 다이어그램은 아니다.   
 ➂ System을 black box component로 간주하고 분석한다.   
 ➃ System 전체와 External Actors 사이의 Interaction을 분석하는 모델이다.   
+
+1. 
+
 9. Object-Oriented Design에 대한 다음의 설명 중 올바르지 않은 것은? 
 ➀ Structure Diagram은 Class나 Package의 구조를 정의하는데 도움이 되며, Class Diagram, Package Diagram, Component Diagram 등이 해당된다.   
 ➁ Behavior Diagram은 Operation이나 로직 등을 정의하는데 도움이 되며, Interaction Diagrams, Statechart Diagram, Activity Diagram 등이 해당된다.   
 ➂ Sequence Diagram으로부터 Class를 구성하는 Operation들의 내용(Body)을 유추하여 구현할 수 있으므로, Sequence Diagram이 가장 중요한 Object Design Model이다.   
 ➃ UP 기반의 OOAD에서는, 현(現) Iteration에서 개발할 Use Cases에 대해서, Sequence Diagrams과 Class Diagram을 반복적(Iterative)이고 점증적(Incremental)으로 작성한다.   
+
+3. 
+
+
 10. Visibility에 대한 다음의 설명 중 가장 올바른 것은? 
 ➀ Visibility는 한 Object이 다른 Object에 정의된 모든 Attributes와 Operations을 볼 수 있는 능력(Ability)을 의미한다.   
 ➁ Object A에서 Object B로 메시지를 보낼 때, B는 A를 볼 수 (Visible) 있어야 한다.   
 ➂ Attribute Visibility는 가장 기본적이고 많이 사용되는 Visibility로서, Class Diagram 뿐만 아니라 Sequence Diagram을 통해서도 확인할 수 있다.   
 ➃ Parameter Visibility는 Local Visibility로 쉽게 바꿀 수 있다.   
+
+
+3
+
+
 11. 다음의 Statechart Diagram에서, start, e8, e7, e10, e9의 순서로 이벤트가 차례대로 발생될 때, 최종적으로 도달된 상태는 무엇인가요?
 
+S3.1
+ 
+ 
  
 
 (최대길이 : 4000) 
 S3.1  
 12. 다음의 Sequence Diagram에서 해석 가능한 모든 Order of Messages는 몇개인가요?
 
- 
+3
 
+
+:A    :B    :C    :D
+              --a-->
+              --b-->
+ <--c--
+       --d-->
+ <--e--
 (최대길이 : 4000) 
-6개  
+3개  
+
+
+
 13. 다음의 Class Diagram에서 “Private”으로 정의되는 attribute 모두 몇 개가 정의되나요? 단. Multiple(*)은 한 개로 계산합니다.
 
- 
+6개
 
 (최대길이 : 4000) 
 3개  
@@ -129,6 +180,10 @@ Design Pattern 기본
 ➁ (a), (c)   
 ➂ (b), (c)   
 ➃ (a), (b), (c)   
+
+
+1
+
 2. 좋은 설계를 이끌어내는 지침을 모두 고르면?
 
 (a) 가능하면 concrete 클래스에 의존하지 않고 abstract 클래스에 의존하도록 설계한다. 
@@ -138,6 +193,10 @@ Design Pattern 기본
 ➁ (b)   
 ➂ (a), (b)   
 ➃ (b), (c)   
+
+1
+
+
 3. 다음 설명에 해당하는 패턴의 이름은?
 
 "생성될 객체의 변경이 전체 시스템에 미치는 영향을 최소화하도록 만들어주는 패턴이다. 이를 통해 설계의 유연성을 높일 수 있고, 코드를 유지하기 쉽게 해준다." 
@@ -145,6 +204,10 @@ Design Pattern 기본
 ➁ 적응자 (adapter) 패턴   
 ➂ 복합체 (composite) 패턴   
 ➃ 팩토리 메쏘드 (factory method) 패턴   
+
+4
+
+
 4. 다음은 산탄총 수술(shotgun surgery)를 나타낸 설명이다. 이것과 가장 깊은 관련이 있는 설계 원칙은?
 
 "변경을 할 때마다 많은 클래스를 조금씩 수정해야 한다면 산탄총 수술의 냄새를 풍기고 있는 것이다."
@@ -154,26 +217,43 @@ Design Pattern 기본
 ➁ DIP   
 ➂ ISP   
 ➃ LSP   
+
+
+1
+
+
 5. GRASP 설계 원칙 (혹은 패턴)에 해당하지 않는 것은? 
 ➀ 정보 전문가 (information expert)   
 ➁ 생성자 (creator)   
 ➂ 높은 응집도 (high cohesion)   
 ➃ 보호된 상속 (protected inheritance)   
+
+
+
+4
+
+
 6. 설계 원칙 DIP에 대한 설명으로 올바르지 않은 것은? 
 ➀ 팩토리 메쏘드(Factory Method) 패턴에 적용된 설계원칙이다.   
 ➁ 고수준의 모듈이 저수준의 모듈에 의존관계를 가져서는 안된다.   
 ➂ 인터페이스 선언 화일은 해당 인터페이스를 구현하는 클래스와 동일한 패키지에 배치되어야 한다.   
 ➃ D. DIP의 I는 inversion의 약자로 해당 원칙을 사용하면 구조적 분석설계 방법에서 발생될 수 있는 모듈간 부적절한 의존관계가 뒤집힌다는 의미이다.   
+
+3
+
+
+
 7. 다음 클래스 다이어그램 중 전략(strategy) 패턴을 나타낸 것을 모두 고르면?
-
-
-
 
  
 ➀ (a), (b)   
 ➁ (a), (c)   
 ➂ (b), (c)   
 ➃ (a), (b), (c)   
+
+3
+
+
 8. 다음 패턴 중 객체 합성(object composition)과 위임(delegation)을 통해 동작하는 것을 모두 고른 것은
 
 (a) 템플릿 메쏘드 (template method) 패턴
@@ -183,6 +263,12 @@ Design Pattern 기본
 ➁ (a), (c)   
 ➂ (b), (c)   
 ➃ (a), (b), (c)   
+
+
+
+3
+
+
 9. MVC 패턴에 대해 올바른 것을 모두 고른 것은?
 
 (a) Controller는 Model의 API를 호출하여 Model에 저장된 데이터를 변경할 수 있다. 
@@ -192,6 +278,10 @@ Design Pattern 기본
 ➁ (a), (c)   
 ➂ (b), (c)   
 ➃ (a), (b), (c)   
+
+1
+
+
 10. 다음 클래스 다이어그램은 RTF 문서를 읽고, 다양한 타입의 문서를 만들어내는 빌더패턴의 적용 예를 나타낸다. 옳지 않은 설명은?
 
 
@@ -201,15 +291,25 @@ Design Pattern 기본
 ➁ 해당 빌터패턴의 최종적인 결과물을 표현하는 클래스는 본 그림에는 나타나있지 않다.   
 ➂ 디렉터(director)의 역할을 하는 클래스는 본 그림에 나타나 있지 않고 RTFReader의 클라이언트가 디렉터에 해당한다.   
 ➃ RTFReader의 측면에서 보면 TextConverter는 전략(strategy)의 인터페이스이고, TexConverter는 concrete strategy에 해당한다.   
+
+
+3
+
+
 11. 다음은 GRASP 설계 원칙 중 Pure Fabrication에 대한 설명이다. 다음 빈칸 (a)와 (b)에 알맞는 용어를 각각 쓰시오.
 “(    (a)      ) 원칙이 제시하는 해결책은 적합하지 않을 때, 높은 응집도(High Cohesion)와 낮은 결합도(Low Coupling) 원칙을 달성하도록 하면서 재사용성을 감안하여 (    (b)     ) 모델에 등장하지 않는 가공의 클래스에 책임(responsibility)을 부여한다” 
+
+
+(a) information expert
+(b) indirection?
+
 
 (최대길이 : 4000) 
 (a) information expert, (b) indirection  
 12. 다음 클래스 다이어그램에서 Int1을 변경했을 때, 그 영향을 받을 수 있는 모든 클래스와 인터페이스를 말하시오. (단, 그림에 나타나지 않은 hidden coupling은 없다고 가정한다)
 
 
-
+interface2빼고 다
  
 
 (최대길이 : 4000) 
@@ -240,7 +340,11 @@ C4, C1, C2, A1, C3, C5
   C4 *h = new C3; // in C++ 
 
 (최대길이 : 4000) 
-(b), (c), (e), (f), (g)  
+(b), (c), (e)
+
+
+
+
 14. 다음 프로그램을 수행시켰을 때 출력되는 결과를 쓰시오. 단, 에러가 발생하는 경우 런타임 에러인지 혹은 컴파일 에러인지 구분하여 답하시오.
 
 class A {
@@ -280,9 +384,16 @@ c.h(200);
  
 
 (최대길이 : 4000) 
-(a): A.f(), (b): A.g(int), (c): compile error, (d): compile error  
+(a): B.f(), (b): B.g(int), (c): runtime error, (d): compile error  
+
+
+
+
 15. 다음 클래스다이어그램은 SOLID 원칙을 위반했던 기존 설계에 대한 수정 결과를 보이고 있다. 기존 설계에서 위반되었던 원칙 2개의 이름을 쓰고, 그렇게 판단한 근거를 상세히 쓰시오. 단, eat( ), playPiano( ), fly( )는 모두 동종의 책임(responsibility)이라고 가정한다.
 
+
+ISP interface를 분리하여 compile
+SRP interface하나 하나의 책임 부과
 
 
  
@@ -326,6 +437,9 @@ public static synchronized SampleClass getInstance( ) {
 (a): 0, 1, 2, 3, 4, 5, 6, 7 모두 나올 수 있습니다. 그 이유는 객체가 최초로 생성되기 이전에 여러 thread가 if(instance == null)을 동시에 실행한다고 하면 각 thread가 다른 객체를 생성해내기 때문입니다. 혹은 타이밍에 따라 다른 thread에서 객체를 생성한 뒤에 if(instance == null)이 실행되게 된다면 이 경우는 같은 객체를 가리키게 됩니다. 즉 각 thread가 if(instance == null)을 어느 시점에 실행하느냐에 따라서 같은 객체가 나올 수도 있고 아닐 수도 있기 때문에 정확한 결과를 예측할 수 없습니다.
 
 (b): 7이 출력됩니다. synchronized keyworrd에 의해 한 thread가 getInstance를 실행하는 중에는 다른 thread가 해당 function을 실행할 수 없습니다. 따라서 처음 call 되었을 때 객체가 생성되고, 이후 thread들이 순차적으로 생성된 객체를 가져오게 됩니다.  
+
+
+
 17. 다음 물음에 대해 답하시오. 
 
 class A {
@@ -345,6 +459,9 @@ class B extends A {
 (최대길이 : 4000) 
 (a) T1과 T는 같은 타입이 되어야합니다.
 (b) S와 S1은 같은 타입이 되어야합니다.  
+(B) s1은 s와 동일하거나 상속관계가 없는 타입이어야 한다. 
+
+
 18. 정수(integer)와 사칙 연산자(operator) - 덧셈(Plus), 뺄셈(Minus), 곱셈(Mult), 나눗셈(Div) - 로 구성된 임의의 수식(Expression)을 장식자(decorator) 패턴을 이용해서 표현하고자 한다. 단, 연산의 결과는 항상 정수라고 가정하며, 모든 사칙 연산자의 피연산자(operand)의 갯수는 두 개로 고정한다. 즉, 단항 (unary) 연산자는 지원할 필요없다. 
 
 
