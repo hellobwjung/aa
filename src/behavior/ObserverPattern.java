@@ -126,14 +126,17 @@ public class ObserverPattern {
   }
 
   public static void run() {
-    WeatherData weathreData = new WeatherData();
+    WeatherData weatherData = new WeatherData();
 
-    CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weathreData);
-    StatisticDisplay statisticDisplay = new StatisticDisplay(weathreData);
+    CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);
+    StatisticDisplay statisticDisplay = new StatisticDisplay(weatherData);
 
-    weathreData.setMeasurements(80, 65, 30.4f);
-    weathreData.setMeasurements(82, 70, 29.2f);
-    weathreData.setMeasurements(19, 90, 29.2f);
+    weatherData.setMeasurements(80, 65, 30.4f);
+    weatherData.setMeasurements(82, 70, 29.2f);
+
+    weatherData.removeObserver(statisticDisplay);
+
+    weatherData.setMeasurements(19, 90, 29.2f);
 
   }
 }
