@@ -97,17 +97,13 @@ OOAD 기본
 
 11. 다음의 Statechart Diagram에서, start, e8, e7, e10, e9의 순서로 이벤트가 차례대로 발생될 때, 최종적으로 도달된 상태는 무엇인가요?
 
-S3.1
- 
- 
  
 
 (최대길이 : 4000) 
 S3.1  
+
+
 12. 다음의 Sequence Diagram에서 해석 가능한 모든 Order of Messages는 몇개인가요?
-
-3
-
 
 :A    :B    :C    :D
               --a-->
@@ -115,9 +111,11 @@ S3.1
  <--c--
        --d-->
  <--e--
+ 
+ 
+ 
 (최대길이 : 4000) 
 3개  
-
 
 
 13. 다음의 Class Diagram에서 “Private”으로 정의되는 attribute 모두 몇 개가 정의되나요? 단. Multiple(*)은 한 개로 계산합니다.
@@ -126,12 +124,18 @@ S3.1
 
 (최대길이 : 4000) 
 3개  
+
+
+
 14. 다음은 무엇에 대한 설명인가요? 
 
 “the set of significant decisions about the organization of a software system, the selection of the structural elements and their interfaces by which the system is composed, together with their behavior as specified in the collaborations among those elements, the composition of these structural and behavioral elements into progressively larger subsystems, and the architectural style that guides this organization - these elements and their interfaces, their collaborations, and their composition” 
 
 (최대길이 : 4000) 
 Software architecture  
+
+
+
 15. 가장 널리 사용되는 기본적인 3 Layered Architecture를 기준으로, Application Logic and Domain Objects Layer에 해당하는 SW를 개발한다고 가정합니다. 이 때 다음의 그림을 보고, Cashier로부터 시작된 system operation “enterItem()”이 어떤 과정을 거쳐 Application Logic and Domain Objects Layer까지 도달하는지(리턴 포함), 간략하게 설명하세요. 단, Elaboration Phase의 거의 마지막 단계라고 가정합니다.
 
  
@@ -168,6 +172,10 @@ system의 "enterItem()" operation이 호출되면 UI의 swing 내부의 processS
 
  찾아보기...  
 현재 첨부되어 있는 파일 :   
+ 
+ 
+ 
+ 
  
 Design Pattern 기본  
 1. 패턴에 대한 설명으로 옳은 것을 모두 고르면?
@@ -238,6 +246,8 @@ Design Pattern 기본
 ➁ 고수준의 모듈이 저수준의 모듈에 의존관계를 가져서는 안된다.   
 ➂ 인터페이스 선언 화일은 해당 인터페이스를 구현하는 클래스와 동일한 패키지에 배치되어야 한다.   
 ➃ D. DIP의 I는 inversion의 약자로 해당 원칙을 사용하면 구조적 분석설계 방법에서 발생될 수 있는 모듈간 부적절한 의존관계가 뒤집힌다는 의미이다.   
+
+
 
 3
 
@@ -340,7 +350,7 @@ C4, C1, C2, A1, C3, C5
   C4 *h = new C3; // in C++ 
 
 (최대길이 : 4000) 
-(b), (c), (e)
+(b), (c), (e), (f), (g)
 
 
 
@@ -384,7 +394,7 @@ c.h(200);
  
 
 (최대길이 : 4000) 
-(a): B.f(), (b): B.g(int), (c): runtime error, (d): compile error  
+(a): B.f(), (b): C.g(int), (c): compile error, (d): compile error  
 
 
 
@@ -392,15 +402,16 @@ c.h(200);
 15. 다음 클래스다이어그램은 SOLID 원칙을 위반했던 기존 설계에 대한 수정 결과를 보이고 있다. 기존 설계에서 위반되었던 원칙 2개의 이름을 쓰고, 그렇게 판단한 근거를 상세히 쓰시오. 단, eat( ), playPiano( ), fly( )는 모두 동종의 책임(responsibility)이라고 가정한다.
 
 
+(최대길이 : 4000) 
 ISP interface를 분리하여 compile
 SRP interface하나 하나의 책임 부과
 
 
- 
-
-(최대길이 : 4000) 
 ISP: client가 모든 interface를 사용하는 것이 아니기 때문에 interface를 분리하여 person, animal, bird로 나누었습니다.
 OCP: 새로운 class가 추가됐을 때 다른 class 및 interface에 영향을 주지 않고 기능 추가를 할 수 있게 변경되었습니다.  
+
+
+
 16. 다음 물음에 대해 답하시오. 
 
 public class SampleClass {
