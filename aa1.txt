@@ -22,7 +22,8 @@ OOAD 기본
 
 4
 
-3. 다음은 UML을 구성하는 다양한 다이어그램을 Class Diagram을 이용해서 정리한 그림이다. 이들 중 Iterative한 개발 초기에는 사용/정의되지 않고, 중반 이후에만 주로 사용/정의되는 Diagram은 무엇인가요?
+3. 다음은 UML을 구성하는 다양한 다이어그램을 Class Diagram을 이용해서 정리한 그림이다. 
+이들 중 Iterative한 개발 초기에는 사용/정의되지 않고, 중반 이후에만 주로 사용/정의되는 Diagram은 무엇인가요?
 
  
 ➀ Sequence Diagram – Package Diagram   
@@ -129,32 +130,51 @@ S3.1
 
 14. 다음은 무엇에 대한 설명인가요? 
 
-“the set of significant decisions about the organization of a software system, the selection of the structural elements and their interfaces by which the system is composed, together with their behavior as specified in the collaborations among those elements, the composition of these structural and behavioral elements into progressively larger subsystems, and the architectural style that guides this organization - these elements and their interfaces, their collaborations, and their composition” 
+“the set of significant decisions about the organization of a software system, 
+the selection of the structural elements and their interfaces by which the system is composed, 
+together with their behavior as specified in the collaborations among those elements, 
+the composition of these structural and behavioral elements into progressively larger subsystems, 
+and the architectural style that guides this organization 
+- these elements and their interfaces, their collaborations, and their composition” 
 
 (최대길이 : 4000) 
 Software architecture  
 
 
 
-15. 가장 널리 사용되는 기본적인 3 Layered Architecture를 기준으로, Application Logic and Domain Objects Layer에 해당하는 SW를 개발한다고 가정합니다. 이 때 다음의 그림을 보고, Cashier로부터 시작된 system operation “enterItem()”이 어떤 과정을 거쳐 Application Logic and Domain Objects Layer까지 도달하는지(리턴 포함), 간략하게 설명하세요. 단, Elaboration Phase의 거의 마지막 단계라고 가정합니다.
+15. 가장 널리 사용되는 기본적인 3 Layered Architecture를 기준으로, 
+Application Logic and Domain Objects Layer에 해당하는 SW를 개발한다고 가정합니다. 
+이 때 다음의 그림을 보고, Cashier로부터 시작된 system operation 
+“enterItem()”이 어떤 과정을 거쳐 Application Logic and Domain Objects Layer까지 도달하는지(리턴 포함),
+간략하게 설명하세요. 단, Elaboration Phase의 거의 마지막 단계라고 가정합니다.
 
  
 
 (최대길이 : 4000) 
-system의 "enterItem()" operation이 호출되면 UI의 swing 내부의 processSaleFrame class에 의해 Register class의 enterItem()이 호출되게 됩니다. 그러면 이 함수는 decsrition과 total을 cashier에게 반환하게 됩니다.  
-16. 다음은 일반적인 UP Development Case를 설명하는 그림입니다. Use-Case Model이 Construction Phase에서 빈칸으로 되어 있는데, 빈칸의 의미와 그 이유를 설명하세요.
+system의 "enterItem()" operation이 호출되면 UI의 swing 내부의 processSaleFrame class에 의해 Register class의 
+enterItem()이 호출되게 됩니다. 그러면 이 함수는 decsrition과 total을 cashier에게 반환하게 됩니다.  
+
+
+16. 다음은 일반적인 UP Development Case를 설명하는 그림입니다. Use-Case Model이 Construction Phase에서 빈칸으로 되어 있는데,
+빈칸의 의미와 그 이유를 설명하세요.
 
  
 
 (최대길이 : 4000) 
-이 단계에서는 더 이상의 requirement가 변경되면 안된다는 의미로서 이전 단계까지 모든 requirement에 대한 정의 및 refinement를 완료하고 consturction phase에서는 더 이상의 변경이 이루어지면 안됩니다.  
-17. 다음은 학생이 학교의 시스템에 (최대 3회) 로그인 한 후 수강신청을 하는 “Login+Register” Use-Case에 대한 Sequence Diagram입니다. 이 모델의 문제점을 파악하여, 로그인이 성공적일 때에만 수강신청이 가능하도록, Sequence Diagram을 수정하세요. 글로 간략하게 설명하세요.
+이 단계에서는 더 이상의 requirement가 변경되면 안된다는 의미로서 이전 단계까지 모든 requirement에 대한 정의 및 refinement를 완료하고
+consturction phase에서는 더 이상의 변경이 이루어지면 안됩니다.  
+17. 다음은 학생이 학교의 시스템에 (최대 3회) 로그인 한 후 수강신청을 하는 “Login+Register” Use-Case에 대한 Sequence Diagram입니다.
+이 모델의 문제점을 파악하여, 로그인이 성공적일 때에만 수강신청이 가능하도록, Sequence Diagram을 수정하세요. 글로 간략하게 설명하세요.
 
  
 
 (최대길이 : 4000) 
-3번 모두 incorrect password를 입력하더라도 register 및 enter가 실행되는 문제점이 있습니다. break의 위치를 loop(1,3) 직후로 옮겨서 incorrect password를 입력했을 때 시스템이 종료되도록 변경이 필요합니다.  
-18. 문제점이 수정된 (문항17)의 “Login+Register” Use-Case를 다음의 시나리오를 추가해서 Casual Format으로 작성하세요. 단, Casual format은 Name, Actor, Main/Alternative/Exceptional Scenario로 구성됩니다.
+3번 모두 incorrect password를 입력하더라도 register 및 enter가 실행되는 문제점이 있습니다. 
+break의 위치를 loop(1,3) 직후로 옮겨서 incorrect password를 입력했을 때 시스템이 종료되도록 변경이 필요합니다.  
+
+
+18. 문제점이 수정된 (문항17)의 “Login+Register” Use-Case를 다음의 시나리오를 추가해서 Casual Format으로 작성하세요. 
+단, Casual format은 Name, Actor, Main/Alternative/Exceptional Scenario로 구성됩니다.
 - 로그인을 3회 실패할 경우, 원한다면, “비밀번호 찾기”를 실행하고 해당 과정을 진행할 수 있다. 
 - “비밀번호 찾기”는 핸드폰 및 이메일 두 방법으로 가능하다. (핸드폰 문자나 이메일로 받은 인증용 숫자 입력)
 - “비밀번호 찾기”가 완료되면 로그인을 다시 시도할 수 있다.
@@ -399,7 +419,9 @@ c.h(200);
 
 
 
-15. 다음 클래스다이어그램은 SOLID 원칙을 위반했던 기존 설계에 대한 수정 결과를 보이고 있다. 기존 설계에서 위반되었던 원칙 2개의 이름을 쓰고, 그렇게 판단한 근거를 상세히 쓰시오. 단, eat( ), playPiano( ), fly( )는 모두 동종의 책임(responsibility)이라고 가정한다.
+15. 다음 클래스다이어그램은 SOLID 원칙을 위반했던 기존 설계에 대한 수정 결과를 보이고 있다. 
+기존 설계에서 위반되었던 원칙 2개의 이름을 쓰고, 그렇게 판단한 근거를 상세히 쓰시오.
+단, eat( ), playPiano( ), fly( )는 모두 동종의 책임(responsibility)이라고 가정한다.
 
 
 (최대길이 : 4000) 
@@ -445,9 +467,16 @@ public static synchronized SampleClass getInstance( ) {
 } 
 
 (최대길이 : 4000) 
-(a): 0, 1, 2, 3, 4, 5, 6, 7 모두 나올 수 있습니다. 그 이유는 객체가 최초로 생성되기 이전에 여러 thread가 if(instance == null)을 동시에 실행한다고 하면 각 thread가 다른 객체를 생성해내기 때문입니다. 혹은 타이밍에 따라 다른 thread에서 객체를 생성한 뒤에 if(instance == null)이 실행되게 된다면 이 경우는 같은 객체를 가리키게 됩니다. 즉 각 thread가 if(instance == null)을 어느 시점에 실행하느냐에 따라서 같은 객체가 나올 수도 있고 아닐 수도 있기 때문에 정확한 결과를 예측할 수 없습니다.
+(a): 0, 1, 2, 3, 4, 5, 6, 7 모두 나올 수 있습니다. 
+그 이유는 객체가 최초로 생성되기 이전에 여러 thread가 if(instance == null)을 동시에 실행한다고 하면 각 thread가 다른 객체를 생성해내기 때문입니다. 
+혹은 타이밍에 따라 다른 thread에서 객체를 생성한 뒤에 if(instance == null)이 실행되게 된다면 이 경우는 같은 객체를 가리키게 됩니다.
+즉 각 thread가 if(instance == null)을 어느 시점에 실행하느냐에 따라서 
+같은 객체가 나올 수도 있고 아닐 수도 있기 때문에 정확한 결과를 예측할 수 없습니다.
 
-(b): 7이 출력됩니다. synchronized keyworrd에 의해 한 thread가 getInstance를 실행하는 중에는 다른 thread가 해당 function을 실행할 수 없습니다. 따라서 처음 call 되었을 때 객체가 생성되고, 이후 thread들이 순차적으로 생성된 객체를 가져오게 됩니다.  
+(b): 7이 출력됩니다. 
+synchronized keyworrd에 의해 한 thread가 getInstance를 실행하는 중에는 
+다른 thread가 해당 function을 실행할 수 없습니다. 
+따라서 처음 call 되었을 때 객체가 생성되고, 이후 thread들이 순차적으로 생성된 객체를 가져오게 됩니다.  
 
 
 
@@ -473,7 +502,10 @@ class B extends A {
 (B) s1은 s와 동일하거나 상속관계가 없는 타입이어야 한다. 
 
 
-18. 정수(integer)와 사칙 연산자(operator) - 덧셈(Plus), 뺄셈(Minus), 곱셈(Mult), 나눗셈(Div) - 로 구성된 임의의 수식(Expression)을 장식자(decorator) 패턴을 이용해서 표현하고자 한다. 단, 연산의 결과는 항상 정수라고 가정하며, 모든 사칙 연산자의 피연산자(operand)의 갯수는 두 개로 고정한다. 즉, 단항 (unary) 연산자는 지원할 필요없다. 
+18. 정수(integer)와 사칙 연산자(operator) - 덧셈(Plus), 뺄셈(Minus), 곱셈(Mult), 나눗셈(Div) - 
+로 구성된 임의의 수식(Expression)을 장식자(decorator) 패턴을 이용해서 표현하고자 한다. 
+단, 연산의 결과는 항상 정수라고 가정하며, 모든 사칙 연산자의 피연산자(operand)의 갯수는 두 개로 고정한다. 
+즉, 단항 (unary) 연산자는 지원할 필요없다. 
 
 
 (a) 설계된 내용을 자바 혹은 C++의 코드로 나타내시오.
@@ -486,7 +518,8 @@ class B extends A {
  찾아보기...  
 현재 첨부되어 있는 파일 :   
  
-19. 3개의 스테이지를 가진 게임을 구현하려고 한다. 스테이지별로 복잡도가 다른 미로(Maze)와 가치가 다른 보물(Gems)을 지원하기 위해 다음과 같은 클래스 체계를 가지고 있다. 
+19. 3개의 스테이지를 가진 게임을 구현하려고 한다. 
+스테이지별로 복잡도가 다른 미로(Maze)와 가치가 다른 보물(Gems)을 지원하기 위해 다음과 같은 클래스 체계를 가지고 있다. 
 
 
 
