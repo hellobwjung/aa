@@ -457,7 +457,8 @@ LSP원칙에 의하면 Person이 Duck의 subtype이 되기 위해서는 Person�
 (최대길이 : 4000) 
 (a): composite pattern
 (b) 모든 component를 동일한 interface(GUICompent)로 처리할 수 있기 때문에 transparency를 제공합니다.
-(c) addChild(), removeChild(), getChild(int index)를 interface(GUIComponent)에서 제거하는 방법이 있습니다. 이 방법을 사용했을 때는 leaf component(Button, TextBox)가 제공하지 않는 동작을 하려고 할 때 compile-time에 에러가 발생한다는 장점이 있습니다.  
+(c) addChild(), removeChild(), getChild(int index)를 interface(GUIComponent)에서 제거하는 방법이 있습니다. 
+이 방법을 사용했을 때는 leaf component(Button, TextBox)가 제공하지 않는 동작을 하려고 할 때 compile-time에 에러가 발생한다는 장점이 있습니다.  
 
 
 
