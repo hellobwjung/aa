@@ -1,0 +1,32 @@
+
+//in Java
+class S {
+  private int a1;
+  public X a2;
+
+  public void set_a1(int a) {
+    this.a1 = a;
+  }
+
+  private S() {
+  }
+
+  private S(int b1, X b2) {
+    this.a1 = b1;
+    this.a2 = b2;
+  }
+
+  private static S uniqueInstance;
+
+  public static S getInstance(int b1, X b2) {
+    if (uniqueInstance == null) {
+      uniqueInstance = new S(b1, b2);
+    }
+    return uniqueInstance;
+  }
+
+}
+
+class X {
+  private int a3;
+}
