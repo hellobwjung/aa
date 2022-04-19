@@ -1,0 +1,79 @@
+
+class ClassA {
+  int ret, ret2;
+
+  int systemOP(int a, int b) {
+
+    ClassB bb = new ClassB();
+    ClassC cc = new ClassC();
+    ClassD dd = new ClassD();
+
+    ret = bb.b(a);
+    if (ret > 0) {
+      ret2 = cc.c(a, b);
+    } else {
+      ret2 = dd.d(a, b);
+    }
+
+    return ret2;
+  }
+}
+
+class ClassB {
+  int ret, ret2;
+
+  public int b(int a) {
+    ClassC cc = new ClassC();
+    return cc.c(a);
+  }
+
+  public int d(int a, int b) {
+    return ret2;
+  }
+
+}
+
+class ClassC {
+  int ret, ret2;
+
+  public int c(int a) {
+    return ret;
+  }
+
+  public int c(int a, int b) {
+    return ret2;
+  }
+
+}
+
+class ClassD {
+  int ret2;
+
+  public int d(int a, int b) {
+    return ret2;
+  }
+
+}
+
+class Student {
+  ClassA aa;
+
+  public int systemOP(int a, int b) {
+
+    aa = new ClassA();
+
+    return aa.systemOP(a, b);
+  }
+
+  int ret2;
+}
+
+public class ooad18 {
+
+  public static void main(String[] args) {
+    Student student = new Student();
+    student.systemOP(0, 0);
+
+  }
+
+}
