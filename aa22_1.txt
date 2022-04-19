@@ -115,13 +115,17 @@ Development Case
 “endSale( )”과 UI Layer의 ProcessSale Frame 클래스에서 시작된 “endSale( )”의 차이점을 설명
 하세요. 단, 현재 시점을 UP의 Construction Phase 후반부라고 가정합니다.
  
-외부 Actor인 Casher와 직접적으로 communication하는 endSale()은 systemoperation으로서 UI등으로 처리되는 부분이고 Domain과 UI를 연결하는 endSale()은 register class에 있는 public operation이다.
+외부 Actor인 Casher와 직접적으로 communication하는 endSale()은 systemoperation으로서 UI등으로 처리되는 부분이고 
+Domain과 UI를 연결하는 endSale()은 register class에 있는 public operation이다.
+
+
 16. 다음은 UP의 Environment Discipline에서 작성하는 Development Case를 설명하는 그림입
 니다. SW Architecture Document가 Construction Phase에서 빈칸으로 되어 있는데, 그 빈칸의
 의미와 이유를 정확하게 설명하세요.
  
 Elaboration phase에서 Architecture는 fix되며 그 이후 단계인 construction phase부터는 수정이 되지 않는 다는 뜻이다.
-UP 기반 OOAD는 architecture-centricm하기 때문에 architecture critical한 부분을 elaboration단계에서 fix하고 나머지 단계에서는 architecture 와 관련이 없고 user에게 critical한 use case를 해결한다.
+UP 기반 OOAD는 architecture-centricm하기 때문에 architecture critical한 부분을 
+elaboration단계에서 fix하고 나머지 단계에서는 architecture 와 관련이 없고 user에게 critical한 use case를 해결한다.
 
 
 17. 다음은 학생(Student)이 학교시스템(StudentAdminSystem)에 시험을 등록(Register) 하는 시
@@ -305,20 +309,33 @@ mediator patern
 하시오.
 public class Client {
   public static void main (String args [ ] ) {
-    ServiceProvider sp = new Service1Provider ( );     sp.startService( );
-  } }
-abstract class ServiceProvider {   Server s = null;
-  protected abstract Server createServer();   public void startService( ) {
-    s = createServer( );      writeLog ( s );
+    ServiceProvider sp = new Service1Provider ( );     
+    sp.startService( );
   }
-  protected void writeLog ( Server s ) {protected void writeLog ( Server s ) {
+}
+
+abstract class ServiceProvider {   
+  Server s = null;
+  
+  protected abstract Server createServer();   
+  
+  public void startService( ) {
+    s = createServer( );      
+    writeLog ( s );
+  }
+  
+  protected void writeLog ( Server s ) {
     // generate log message about s  
  }
 }
+
 class Service1Provider extends ServiceProvider { 
-  protected Server createServer( ) { return new ServerA( ); } }
+  protected Server createServer( ) { return new ServerA( ); } 
+}
 class Service2Provider extends ServiceProvider { 
-  protected Server createServer( ) { return new ServerB( ); } }
+  protected Server createServer( ) { return new ServerB( ); } 
+}
+
 interface Server { }
 class ServerA implements Server {   // implementing Server interface here }
 class ServerB implements Server {   // implementing Server interface here }
