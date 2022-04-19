@@ -350,9 +350,11 @@ ServiceProvider에 따라 다른 Server에 대한 implementation(algorithm)을
 
 16. 다음 코드를 보고 물음에 대해 답하시오.
 class P {
-  public T m(S x) { ... } }
+  public T m(S x) { ... } 
+}
+
 class C extends P {
-public T1 m(S1 x) { ... } 
+  public T1 m(S1 x) { ... } 
 }
 
 위의 클래스 정의가 에러 없이 컴파일되고 C의 m 메쏘드가 P의 m 메쏘드를 오버라이드
