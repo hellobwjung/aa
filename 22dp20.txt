@@ -1,0 +1,139 @@
+// a()
+
+abstract class Number {
+  private float number;
+
+  public Number() {
+    this.number = 0.0f;
+  }
+
+  public Number(float num) {
+    this.number = num;
+  }
+
+  public float getNumber() {
+    return number;
+  }
+
+  public void setNumber(float num) {
+    this.number = num;
+  }
+}
+
+class MyNumber extends Number {
+  public MyNumber() {
+    super();
+  }
+
+  public MyNumber(float num) {
+    super(num);
+  }
+}
+
+abstract class Operator extends Number {
+  public MyNumber number;
+
+  public Operator() {
+    number = new MyNumber();
+  }
+
+  public Operator(float num) {
+    number = new MyNumber(num);
+  }
+
+  public float operation() {
+    return number.getNumber();
+  }
+
+  public abstract float operation(float num);
+
+//  public abstract float operation(Number num);
+}
+
+class Add extends Operator {
+
+  public Add(float num) {
+    super(num);
+    number.setNumber(number.getNumber() + num);
+  }
+
+  public Add(Number n, float num) {
+    number.setNumber(n.getNumber() + num);
+  }
+
+  @Override
+  public float operation(float num) {
+    number.setNumber(number.getNumber() + num);
+    return number.getNumber();
+  }
+}
+
+class Sub extends Operator {
+
+  public Sub(float num) {
+    this.number.setNumber(this.number.getNumber() + num);
+  }
+
+  public Sub(Number n, float num) {
+    number.setNumber(n.getNumber() - num);
+  }
+
+  @Override
+  public float operation(float num) {
+    this.number.setNumber(this.number.getNumber() - num);
+    return this.number.getNumber();
+  }
+}
+
+class Mul extends Operator {
+
+  public Mul(float num) {
+    this.number.setNumber(this.number.getNumber() + num);
+  }
+
+  public Mul(Number n, float num) {
+    number.setNumber(n.getNumber() * num);
+  }
+
+  @Override
+  public float operation(float num) {
+    this.number.setNumber(this.number.getNumber() * num);
+    return this.number.getNumber();
+  }
+}
+
+class Div extends Operator {
+
+  public Div(float num) {
+    this.number.setNumber(this.number.getNumber() + num);
+  }
+
+  public Div(Number n, float num) {
+    number.setNumber(n.getNumber() / num);
+  }
+
+  @Override
+  public float operation(float num) {
+    this.number.setNumber(this.number.getNumber() / num);
+    return this.number.getNumber();
+  }
+}
+
+public class dp20 {
+
+  public static void main(String[] args) {
+
+    // (b) 가
+    Number a = new MyNumber(101);
+    Number b = new MyNumber(11);
+    Number c = new MyNumber(1);
+
+    // (b) 나
+    Number d = new Mul(new Add(a, b), c);
+
+    // (b) 다
+    Number e = new Mul(new Div(new Mul(c, d), new Sub(a, b)), b);
+
+  }
+
+}
