@@ -1,0 +1,99 @@
+//// Object Adapter
+
+interface ServiceInterface {
+  public void SelectAService();
+
+  public void SelectBService();
+
+}
+
+class ServiceImpl {
+
+  void Service1() {
+    System.out.println("Service1");
+  }
+
+  void Service2() {
+    System.out.println("Service2");
+  }
+}
+
+class ClassAdapter implements ServiceInterface {
+  ServiceImpl svc;
+
+  public ClassAdapter(ServiceImpl svc) {
+    this.svc = svc;
+  }
+
+  @Override
+  public void SelectAService() {
+    svc.Service1();
+  }
+
+  @Override
+  public void SelectBService() {
+    svc.Service2();
+  }
+}
+
+public class dp18_object {
+
+  public static void main(String[] args) {
+    ServiceImpl impl = new ServiceImpl();
+    ServiceInterface si = new ClassAdapter(impl);
+    si.SelectAService();
+    si.SelectBService();
+
+  }
+
+}
+
+
+
+//// Class Adapter
+
+interface ServiceInterface {
+  public void SelectAService();
+
+  public void SelectBService();
+
+}
+
+class ServiceImpl {
+
+  void Service1() {
+    System.out.println("Service1");
+  }
+
+  void Service2() {
+    System.out.println("Service2");
+  }
+}
+
+class ClassAdapter extends ServiceImpl implements ServiceInterface {
+
+  public ClassAdapter() {
+  }
+
+  @Override
+  public void SelectAService() {
+    this.Service1();
+  }
+
+  @Override
+  public void SelectBService() {
+    this.Service2();
+  }
+}
+
+public class dp18_class {
+
+  public static void main(String[] args) {
+//    ServiceImpl impl = new ServiceImpl();
+    ServiceInterface si = new ClassAdapter();
+    si.SelectAService();
+    si.SelectBService();
+
+  }
+
+}
