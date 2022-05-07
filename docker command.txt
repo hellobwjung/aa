@@ -1,0 +1,70 @@
+
+
+CUDA_VISIBLE_DEVICES=0,1  docker run --runtime=nvidia -ti \
+    -v /home/bw.jung/:/home/bw.jung/ \
+    -v /home/bw.jung/:/external_home/ \
+    -v /home/dataset/:/dataset/ \
+    -e http_proxy=http://12.26.204.100:8080 \
+    -e https_proxy=http://12.26.204.100:8080 \
+    -e NCCL_TOPOLOGY="CUBEMESH" \
+    -p 6007:6006 \
+    -p  8887:8888 \
+   -p 10927:22 \
+    --name benchmark2.4.1 \
+    jungbw/benchmark:r2.4.1 \
+    bash 
+
+CUDA_VISIBLE_DEVICES=0,1  docker run --runtime=nvidia -ti \
+    -v /home/bw.jung/:/home/bw.jung/ \
+    -v /home/bw.jung/:/external_home/ \
+    -v /home/dataset/:/dataset/ \
+    -e http_proxy=http://12.26.204.100:8080 \
+    -e https_proxy=http://12.26.204.100:8080 \
+    -e NCCL_TOPOLOGY="CUBEMESH" \
+    -p 6007:6006 \
+    -p  8887:8888 \
+   -p 10927:22 \
+    --name tf280_jupyter \
+    tensorflow/tensorflow:2.8.0-gpu-jupyter \
+    bash 
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+1. (root)
+ cp -rf /external_home/.pip ~
+ cp -rf /external_home/.bashrc ~
+cp -rf /external_home/.vimrc ~
+cp -rf /external_home/.gitconfig ~
+cp ~/.pip/McAfee_Certificate.crt /usr/local/share/ca-certificates/McAfee_Certificate.crt 
+
+2.(root) 
+ apt-get update && apt-get install ca-certificates
+
+3. (root) 
+dpkg-reconfigure ca-certificates 
+
+4. (root) 
+export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+export CURL_CA_BUNDLE=/usr/local/share/ca-certificates/McAfee_Certificate.crt
+
+ 
+
+apt-get install git vim-nox ctags cscope
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+pip install opencv-python pydot pydotplus graphviz tensorflow-addons Pillow tensorflow-model-optimization
+apt-get install -y libgl1-mesa-glx libsm6 libxrender1 graphviz ssh libssl-dev openssl
+
+
+pip install nbformat jupyter_contrib_nbextensions && jupyter contrib nbextension install
+
+pip install jupyter-tabnine 
+jupyter nbextension install --py jupyter_tabnine
+jupyter nbextension enable --py jupyter_tabnine
+jupyter serverextension enable --py jupyter_tabnine
+ 
