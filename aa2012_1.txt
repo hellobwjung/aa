@@ -1,0 +1,449 @@
+OOP/OOAD/UML
+1. 다음의 요구사항은 어떤 Object-Oriented Basic Principles를 통해 만족시킬 수 있나요?
+
+“Design, produce and describe software so that it can be easily used without knowing the details of how it works.”
+➀ Abstraction	 
+
+    ➁ Encapsulation	 
+
+➂ Inheritance	 
+
+➃ Polymorphism	 
+
+2. 다음은 객체지향 (Object-Oriented) 기본 개념 중 무엇을 설명하는 것인가요?
+
+“The ability to hide many different implementation behind a single interface. The same word or phrase can mean different things in different contexts.”
+➀ Abstraction	 
+
+➁ Encapsulation	 
+
+    ➂ Polymorphism	 
+
+➃ Inheritance	 
+
+3. 다음은 객체지향 소프트웨어 개발방법론 (OOAD) 중 어느 단계에 대한 설명인가요?
+
+“개발하려는 소프트웨어 도메인의 객체(Object)를 찾는다(Discover).”
+    ➀ OOA (Object-Oriented Analysis)	 
+
+➁ OOD (Object-Oriented Design)	 
+
+➂ OOI (Object-Oriented Implementation)	 
+
+➃ OOT (Object-Oriented Testing)	 
+
+	
+	
+	
+	
+4. OOAD (Object-Oriented Analysis and Design)에 대한 다음의 설명 중 올바르지 않은 것은?
+➀ OOA (Object-Oriented Analysis)는 Domain Objects/Concepts를 찾는 단계이다.	 
+
+➁ OOD (Object-Oriented Design) 단계에서는 Software Object/Class를 정의한다.	 
+
+➂ OOD에서는 Objects가 서로 어떻게 Collaboration하는지를 정의한다.	 
+
+    ➃ OOD에서는 사용할 데이터의 흐름(Data Flow)을 DFD(Data-Flow Diagram)로 명확하게 정의하는 것이 중요하다.	 
+
+Homework랑 비슷	
+5. UP 기반 OOAD 방법론에 대한 다음의 설명 중 올바르지 않은 것은?
+➀ Iterative, Incremental 및 Evolutionary한 소프트웨어 개발 방법론이다.	 
+
+➁ Risk-driven 하고 Architecture-centric한 개발 방법론이다.	 
+
+    ➂ Client 보다는 Architecture 관점에서 발생할 수 있는 Risk를 줄이는 것을 중요하게 생각한다.	 
+
+➃ 모든 단계에서 Use Cass가 중요하게 사용된다.	 
+
+Homework랑 똑같음.
+6. 다음은 UML 2.2를 구성하는 14종의 다이어그램을 Class Diagram을 이용해서 정리한 그림이다. 이들 중 UP 기반으로 객체지향 SW를 개발할 때, Construction 단계에서는 잘 수정되지 않는 다이어그램은 무엇인가요?
+
+ 
+➀ Use Case Diagram	 
+
+➁ Class Diagram	 
+
+➂ Sequence Diagram	 
+
+    ➃ Component Diagram	 
+
+헤갈리네… homework에 없음	
+7. UML에 대한 다음의 설명 중 가장 올바르지 않은 것은?
+➀ UML은 객체지향 SW 개발방법론이 아니다.	 
+
+    ➁ UML을 잘 사용하면 Object-Oriented 방식으로 생각(Design)도 잘 할 수 있다.	 
+
+➂ UML로 요구사항./디자인 명세서 내용의 일부를 작성할 수도 있다.	 
+
+➃ UML을 상호간에 의사 소통의 도구로 사용할 수도 있다.	 
+
+Homewrok에 있음	
+8. 다음은 UP의 4 Phases 중 어느 단계에 대한 설명인가요?
+
+“Architecture가 개발 후반부에 변경되는 Risk를 해결하기 위해, Architecture에 민감한 요구사항들을 모두 찾고, 이를 모두 반영한 가장 적절한 Architecture를 선정한다.”
+➀ Inception	 
+
+    ➁ Elaboration	 
+
+➂ Construction	 
+
+➃ Transition	 
+
+9. 다음의 System Sequence Diagram (SSD)에 대한 설명 중 올바르지 않은 것은?
+➀ External Actor로부터 개발하려는 System으로 들어오고 나가는 모든 Interaction을 System Operation으로 선정한다.	 
+
+    ➁ 각 System Operation에 대해서 System이 어떻게 내부적으로 동작할 것인가에 대해서는 고민하지 않는다.	 
+
+➂ UML 2.0을 구성하는 13종의 다이어그램은 아니고, Sequence Diagram을 준용해서 그리며, UP에서는 Use-Case와 SSD를 합쳐서 UCM (Use Case Model)이라고 부른다.	 
+
+➃ System Operation을 도출하는 용도로 주로 사용된다.	 
+
+10. OOAD (Object-Oriented Analysis and Design)에 대한 다음의 일반적인 설명 중 올바르지 않은 것은?
+➀ Domain Model은 개발하려는 SW에 어떤 Conceptual Class/Object이 있는지 찾는다.	 
+
+    ➁ OOA (Object-Oriented Analysis) 단계에서는 Domain Model이 핵심이다.	 
+
+➂ OOD (Object-Oriented Design) 단계에서는 Sequence Diagram 보다 Class Diagram이 더 중요하다.	 
+
+➃ OOAD에서는, 구현할 Use-Cases에 대해, Sequence Diagrams과 Class Diagram을 반복적(Iterative)이고 점증적(Incremental)으로 작성한다.	 
+
+*애매하다…	
+]11. 아래 Class Diagram에서 학생(Student)은 수업(Course)을 최대 몇 과목 수강(enrolls) 할 수 있나요?
+ 
+ 
+(최대길이 : 4000)
+ 
+
+12. 다음의 Statechart Diagram에서, start, e1, e2, e3, e10, e8 의 순서로 이벤트가 차례대로 발생되는 경우, 최종적으로 도달된 상태는 무엇인가요?
+ 
+ 
+(최대길이 : 4000)
+ 
+
+13. 다음의 Sequence Diagram에서 가장 마지막에 전송되는 메시지(들)는 무엇인가요?
+ 
+ 
+(최대길이 : 4000)
+ 
+
+14. 다음의 Class Diagram에서 Register 클래스에는 모두 몇 개의 “Private” attribute이 정의되나요?
+ 
+ 
+(최대길이 : 4000)
+ 
+
+15. 다음은 교재의 POS 예제의 “Process Sale” Use-Case에 대한 System Sequence Diagram과 OOD 단계에서 작성한 Package Diagram의 일부입니다. 기본적인 3 Layered Architecture를 기준으로, 중간에 있는 Domain 레이어에 해당하는 SW를 개발한다고 가정합니다. 외부에 있는 Cashier로부터 시작된 “makeNewSale( )”과 UI Layer의 ProcessSale Frame 클래스에서 시작된 “makeNewSale( )”의 차이점을 명확하게 설명하세요. 단, 현재 시점을 UP의 Construction Phase 후반부라고 가정합니다.
+ 
+ 
+(최대길이 : 4000)
+ 
+
+16. 다음은 UP의 Environment Discipline에서 작성하는 Development Case를 설명하는 그림입니다. SW Architecture Document가 Construction Phase에서 빈칸으로 되어 있는 이유를 논리적으로 설명하세요.
+
+  
+(최대길이 : 4000)
+ 
+
+17. 다음은 학생이 학교 시스템에 로그인 후 등록(register)을 하는 시나리오에 대한 Sequence Diagram입니다. 일반적인 로그인 및 등록 시나리오를 기준으로, 이 Sequence Diagram의 문제점을 하나 찾고, 해결방법을 제시하세요.
+
+  
+(최대길이 : 4000)
+ 
+
+18. 다음의 Sequence Diagram을 보고, System Operation “systemOP( )”의 body를 C++ 또는 JAVA로 최대한 정확하게 작성하세요. 단, “systemOP( )”와 직접적으로 연관된 필요한 부분만 정확하게 작성합니다.
+
+  
+  찾아보기...
+현재 첨부되어 있는 파일 :
+19. 다음의 Class Diagram에서, 정보의 중복(Duplication) 문제를 해결한 새로운 Class Diagram을 하나 제시하세요. 단, 아래의 Class Diagram에 포함된 정보를 유지해야 하며, Class Diagram 문법에 정확하게 맞아야 합니다.
+ 
+ 
+  찾아보기...
+현재 첨부되어 있는 파일 :
+20. (문항17)에서 발견한 문제점을 해결하고, 로그인을 최대 6번까지 시도할 수 있으며, 로그인 시도 횟수가 4회 이상일 때에는 매번 경고 메시지를 내보내도록, (문항17)의 Sequence Diagram을 수정 작성하세요.
+  찾아보기...
+현재 첨부되어 있는 파일 :
+
+
+
+
+
+
+
+Design Patterns
+1. 설계 패턴에 대한 설명으로 올바른 것을 모두 고르면?
+
+(a) 설계 패턴은 요구사항 추출(requirement elicitation)을 용이하게 해준다.
+(b) 설계 패턴은 실제 프로젝트에서 유용하다고 입증된 설계 결과를 집대성한 것이다.
+(c) GoF 설계 패턴은 목적에 따라 생성(creational), 구조(structural), 행위(behavioral)에 대한 패턴으로 분류할 수 있다.
+➀ (a), (b)	 
+
+➁ (a), (c)	 
+
+➂ (b), (c)	 
+
+➃ (a), (b), (c)	 
+
+2. 다음 상황과 가장 밀접한 설계 악취(design smell)를 고르시오.
+
+“소프트웨어의 어느 한 부분을 수정했는데 전혀 관련되지 않다고 생각한 다른 부분이 잘못 동작한다.”
+➀ 비이동성(immobility)	 
+
+➁ 비효율성(inefficiency)	 
+
+➂ 취약성(fragility)	 
+
+➃ 점착성(viscosity)	 
+
+3. 설계 원칙에 대한 설명으로 올바른 것을 모두 고르면?
+
+(a) 변화하기 쉬운 클래스 보다는 잘 변화하지 않는 클래스에 의존하는 것이 좋다.
+(b) 클라이언트가 실제로 사용하지 않는 연산(operation)에 대해 의존하지 않도록 인터페이스 설계를 해야 한다.
+(c) 클래스 간 연결에 shared aggregation 보다는 composition을 더 선호해야 한다.
+➀ (a), (b)	 
+
+➁ (b), (c)	 
+
+➂ (a), (b), (c)	 
+
+➃ 답 없음	 
+
+4. 다음 중 객체 합성(object composition)과 위임(delegation)을 통해 동작하는 패턴을 모두 고른 것은?
+
+(a) 장식자(decorator) 패턴
+(b) 브릿지(bridge) 패턴
+(c) 팩토리 메쏘드(factory method) 패턴
+➀ (a), (b)	 
+
+➁ (a), (c)	 
+
+➂ (b), (c)	 
+
+➃ (a), (b), (c)	 
+
+5. UML에 대한 설명으로 옳은 문장을 모두 고른 것은?
+
+(a) 추상 클래스는 추상 메쏘드(abstract method)를 하나 이상 포함해야 한다.
+(b) 추상 클래스(abstract class)가 구체 메쏘드(concrete method)를 포함할 수 있다.
+(c) 추상 메쏘드의 인자(parameter)로 구체 클래스(concrete class) 타입을 사용할 수 있다.
+➀ (a), (b)	 
+
+➁ (b), (c)	 
+
+➂ (a), (b), (c)	 
+
+➃ 답 없음	 
+
+6. 다음 중 가장 올바른 것은?
+➀ 메쏘드 오버로딩(method overloading)은 다형성(polymorphism)의 예이다.	 
+
+➁ 전략(strategy) 패턴은 메쏘드 오버로딩을 이용해서 구현된다.	 
+
+➂ 클래스 어댑터(class adapter) 패턴은 객체 합성(object composition)과 위임(delegation)을 이용해서 구현된다.	 
+
+➃ 상태(state) 패턴을 적용할 때 구체(concrete) 상태 클래스는 context 객체에 대한 참조(reference)를 가져서는 안된다.  	 
+
+7. MVC 패턴에 대해 올바른 것을 모두 고르면?
+
+(a) 뷰(View)에 전달된 사용자 제스쳐(gesture)는 컨트롤러(controller)에 의해 해석된다.
+(b) 뷰와 모델(model) 사이에 감시자(observer) 패턴이 적용되어 있다.
+(c) 모델에 대한 변경이 컨트롤러에 영향을 끼치지 않도록 설계되어 있다.
+➀ (a), (b)	 
+
+➁ (a), (c)	 
+
+➂ (b), (c)	 
+
+➃ (a), (b), (c)	 
+
+8. 다음 중 중재자(mediator) 패턴에 대한 설명으로 올바른 것을 모두 고른 것은?
+
+(a) 중재자 클래스의 코드 재사용성이 우수하다.
+(b) 통신에 참여하는 동료(colleague) 클래스가 많아져도 통신의 흐름을 이해하기 용이하다.
+(c) 중재자 클래스는 대체로 싱글턴(singleton) 패턴을 이용해서 구현된다.
+➀ (a), (b)	 
+
+➁ (a), (c)	 
+
+➂ (b), (c)	 
+
+➃ (a), (b), (c)	 
+
+9. 설계 원칙 ISP에 대한 설명으로 가장 옳은 것은?
+➀ 해당 원칙을 위반하면 런타임 에러가 발생된다.	 
+
+➁ 어떤 클래스에서 SRP가 위반되면 ISP도 함께 위반된다.	 
+
+➂ 해당 원칙을 지키는 설계를 통해 인터페이스의 응집도(cohesion)를 높일 수 있다.	 
+
+➃ 여러 클라이언트(client)의 인터페이스 요구를 한번에 충족할 수 있도록 폭넓은 (fat) 인터페이스를 만드는 것이 바람직하다.	 
+
+10. 다음 중 상태(State) 패턴과 가장 관련이 적은 것은?
+➀ 위임(delegation)을 통해 설계 유연성을 증대시킨다.	 
+
+➁ 캡슐화(encapsulation)를 통해 내부 설계 결정이 바뀌더라도 외부에 미치는 영향을 최소화한다.	 
+
+➂ 구현보다는 인터페이스에 대해 프로그래밍하라는 설계 원칙을 잘 따르고 있다.	 
+
+➃ 해당 패턴의 적용을 통해 자잘한 크기의 클래스가 만들어질 가능성이 적다.	 
+
+11. 다음 클래스 다이어그램에서 Int1을 변경했을 때, 직접적 혹은 간접적으로 그 영향을 받을 수 있는 모든 클래스와 인터페이스를 나열하시오. (단, 그림에 나타나지 않은 hidden coupling은 없다고 가정한다)
+
+ 
+ 
+(최대길이 : 4000)
+ 
+
+12. 다음 클래스 다이어그램을 자바 혹은 C++로 구현했을 때, 에러가 발생하는 코드를 모두 고르시오.
+ 
+
+
+(a) A1 a = new C1( ); // in Java 
+  A1 *a = new C1; // in C++
+(b) A2 b = new C1( ); // in Java
+  A2 *b = new C1; // in C++
+(c) Int1 c = new A2( ); // in Java
+  Int1 *c = new A2; // in C++
+(d) Int1 d = new C2( ); // in Java
+  Int1 *d = new C2; // in C++
+(e) C3 e = new C4( ); // in Java
+  C3 *e = new C4; // in C++
+(f) Int2 f = new C4( ); // in Java
+  Int2 *f = new C4; // in C++
+(g) A2 g = new C4( ); // in Java
+  A2 *g = new C4; // in C++
+(h) Int1 h = new C4( ); // in Java
+  Int1 *h = new C4; // in C++
+(최대길이 : 4000)
+ 
+
+13. 다음 설명을 읽고 빈칸1, 빈칸2, 빈칸3을 적절히 채우시오.
+
+다양한 게임을 쉽게 만들 수 있는 게임 프레임워크의 설계에 GoF 패턴을 적용하였다고 가정하자. 해당 프레임워크는 Game 클래스와 Character 클래스를 각각 추상 클래스로 정의한다. Character 클래스는 게임 내에서 표시되는 물체에 대응하는 클래스이다. 이 프레임워크를 이용하는 개발자는 Game 클래스를 상속받아 자신만의 게임 클래스를 정의한다. 또한 Character 클래스를 상속받아 자신의 게임에서 사용되는 여러 물체를 정의한다. 예를 들어 패크맨(PacMan)이 등장하는 게임을 만들기 위해 Game 클래스를 상속받아 그 자식 클래스로 PacManGame을 정의하고, Character 클래스를 상속받아 그 자식 클래스로 PacMan 클래스를 정의한다. 프레임워크의 [ 빈칸1 ] 클래스에는 Character 타입의 객체를 다룰 수 있는 유용한 메쏘드들을 미리 구현해 두었다. 예를 들어 "void show(Character s)" 메쏘드는 s를 화면에 보여주고 "void hide(Character s)" 메쏘드는 s를 감춰준다. 특정 Character 객체를 생성하여 리턴하는 “createCharacter ( )" 메쏘드는 추상 메쏘드(abstract method)로 선언되어 있기 때문에 게임 개발자는 PacMan 타입 인스턴스를 생성하도록 해당 메쏘드를 [ 빈칸2 ]에서 오버라이드(override) 해야 한다. 상기의 내용에서 설명하고 있는 GoF 패턴의 이름은 [ 빈칸3 ] 이다.
+(최대길이 : 4000)
+ 
+
+14. 다음 설명에 적합한 GoF 패턴 이름을 쓰시오.
+
+객체의 연산(operation)에는 알고리즘의 뼈대(skeleton) 만을 정의하고 각 단계에서 수행할 구체적 처리는 서브 클래스(subclass)로 미루는 패턴이다. 이 패턴은 알고리즘의 구조 자체는 변하지 않게 유지하면서, 알고리즘 각 단계의 처리를 서브 클래스에서 재정의 할 수 있게 한다.
+(최대길이 : 4000)
+ 
+
+15. 추상 팩토리(Abstract factory) 패턴에 등장하는 팩토리 클래스는 도메인 모델(domain model)에서는 나타나지 않고 설계모델에서만 나타난다. 이러한 맥락에서, 팩토리 클래스를 만들어내는 설계 결정과 가장 관련성이 깊은 GRASP 원칙 이름을 쓰고, 해당 원칙을 지키는 경우 어떤 면에서 설계 결과물이 좋아지는지 설명하시오.
+(최대길이 : 4000)
+ 
+
+16. 빌더(builder) 패턴을 적용한 프로그램을 다음과 같이 작성하였다고 가정하자. 패턴의 적용 관점에서 잘못된 부분을 지적하고 수정 방안을 간략히 제시하시오. 단 컴파일/런타임 에러 등은 없고 주석이 달린 부분들이 적절히 구현되어 있다고 가정하시오.
+
+public class Main {
+  public static void main (Strings [] args) {
+    Builder builder = new ConcreteBuilder();
+    Director director = new Director(builder);
+    builder.buildPartA();
+    builder.buildPartB();
+    System.out.println(“Product = “ + director.getProduct());
+  }
+}
+
+interface Builder {
+  public void buildPartA();
+  public void buildPartB();
+  public Product getProduct();
+}
+
+class ConcreteBuilder implements Builder {
+  Product product;
+  public void buildPartA() { // 필요한 사항들의 구현이 잘 되어 있다고 가정함 }
+  public void buildPartB() { // 필요한 사항들의 구현이 잘 되어 있다고 가정함 }
+  public Product getProduct() { return product; }
+}
+
+class Product {
+  // 기타 필요한 사항들의 구현이 잘 되어 있다고 가정함
+}
+
+class Director {
+  Builder builder;
+  public Product getProduct() { return builder.getProduct(); }
+  public Director (Builder builder) { this.builder = builder; }
+  // 기타 필요한 사항들의 구현이 잘 되어 있다고 가정함
+}
+(최대길이 : 4000)
+ 
+
+17. 다음과 같은 주장이 맞는지 혹은 틀리는지 답하고, 그에 대한 근거를 제시하시오.
+
+어떤 클래스가 메쏘드를 두개 이상 구현하고 있다면 SRP 위반 가능성이 높다. 이를 개선하기 위해 클래스의 메쏘드를 모두 모아 한 개로 합치고, 합쳐진 메쏘드에는 flag 파라미터를 추가하여 flag에 전달되는 값에 따라 조건문(conditional statement)를 이용해서 여러 기능을 수행하도록 만들면 SRP을 만족하게 된다.
+(최대길이 : 4000)
+ 
+
+18. 다음은 File과 Directory로 구성된 계층적 구조를 만들고 활용하는 클라이언트 코드의 예제이다. 복합체(Composite) 패턴을 활용하여 해당 클라이언트 코드가 작동할 수 있도록 만들고자 한다. 아래 예제에 설명된 것과 같이 File 클래스의 getSize는 생성자를 부를 때 초기화된 해당 파일의 크기를 int 타입으로 리턴하며, Directory 클래스의 getSize는 해당 디렉토리가 포함하고 있는 하위의 모든 파일들, 즉 해당 디렉토리를 조상(ancestor)으로 가지고 있는 모든 파일들의 크기를 합(summation)한 결과를 int 타입으로 리턴해야한다. 간결하면서도 OCP 원칙을 잘 지키도록 File과 Directory 클래스의 코드를 제시하시오. 추가로 필요한 클래스가 있다면 해당 클래스의 코드까지 작성하시오.
+<< 답안 작성시 UML 다이어그램으로 표현하지 말고 반드시 코드(Java 혹은 C++)로 작성하시기 바랍니다 >>
+
+public class Main {
+  public static void main (Strings [] args) {
+    Directory rootdir = new new Directory("root"); // root라는 이름을 가진 디렉토리
+    Directory bindir = new new Directory("bin");
+    Directory usrdir = new new Directory("usr");
+
+    rootdir.add(bindir); // root 디렉토리 밑에 bin 디렉토리를 추가함
+    rootdir.add(usrdir);
+    rootdir.add(new File("junk",500); // junk라는 이름을 가지는 크기 500의 파일을 root 디렉토리에 추가함
+
+    bindir.add(new File("vi", 1000));
+    bindir.add(new File("latex", 2000));
+    
+    usrdir.add(new File("lee", 1500));
+
+    System.out.println("bin directory size = " + bindir.getSize()); // should print 3000
+    // bin 디렉토리에 직간접적으로 속한 모든 파일의 크기 총합을 출력하므로 1000+2000 = 3000을 출력함
+
+    System.out.println("root directory size = " + rootdir.getSize()); // should print 5000
+    // root 디렉토리에 직간접적으로 속한 모든 파일의 크기 총합을 출력하므로 junk 파일의 크기 500 + bin 디렉토리의 크기 3000 + usr 디렉토리의 크기 1500를 합쳐서 5000을 출력함
+
+  }
+}
+  찾아보기...
+현재 첨부되어 있는 파일 :
+19. 다음 코드에 나타난 클래스 X를 싱글턴으로 만들기 위한 구현을 최소한의 수정을 통해 제시하시오. 단, 멀티쓰레드(multi-thread) 사용을 고려할 필요는 없으며 자바 혹은 C++ 언어로 표현하시오.
+<< 답안 작성시 UML 다이어그램으로 표현하지 말고 반드시 코드(Java 혹은 C++)로 작성하시기 바랍니다 >>
+
+// in Java
+class X {
+  private int a1;
+  private Y a2;
+  public void set(int p1, Y p2) { this.a1 = p1; this.a2 = p2}
+  public X(int p1, Y p2) { this.a1 = p1; this.a2 = p2; }
+  public X(int p1) { this.a1 = p1; this.a2 = new Y( ); }
+}
+class Y { private int a3; }
+
+// in C++
+class X {
+  private:
+    int a1;
+    Y *a2;
+  public:
+    void set (int p1, Y* p2) { this.a1 = p1; this.a2 = p2 }
+    X(int p1, Y* p2) { this.a1 = p1; this.a2 = p2; }
+    X(int p1) { this.a1 = p1; this.a2 = new Y; }
+}
+class Y { private: int a3; }
+  찾아보기...
+현재 첨부되어 있는 파일 :
+20. 다양한 샌드위치를 객체로 모델링하고자 한다. 샌드위치의 베이스가 되는 빵(Bread)에는 Wheat, White 두 가지가 있다. 샌드위치에 추가될 수 있는 야채(Vegetable)와 소스(Sauce)에는 각각 Lettuce, Tomato 그리고 Ranch, HoneyMustard 가 있다. 샌드위치를 만들기 위해서는 하나의 빵 종류를 고르고 야채와 소스를 임의로 추가할 수 있다.
+
+(a) 장식자(Decorator) 패턴을 사용하여 위의 요구사항들을 표현할 수 있도록 설계하고 코드로 나타내시오. 단, Bread, Vegetable, Sauce 클래스는 추상 클래스로 Wheat, White, Lettuce, Tomato, Ranch, HoneyMustard 클래스는 구체(concrete) 클래스로 모델링하시오.
+<< 답안 작성시 UML 다이어그램으로 표현하지 말고 반드시 코드(Java 혹은 C++)로 작성하시기 바랍니다 >>
+
+(b) 설계한 내용을 기반으로, 클라이언트가 다음의 객체(들)을 만들어내는 코드를 작성하시오.
+<< 답안 작성시 UML 다이어그램으로 표현하지 말고 반드시 코드(Java 혹은 C++)로 작성하시기 바랍니다 >>
+- Wheat를 베이스로 Lettuce가 추가된 샌드위치
+- White를 베이스로 Tomato, Ranch, HoneyMustard가 추가된 샌드위치
+  찾아보기...
+현재 첨부되어 있는 파일 :
+
+
+
+
+
