@@ -23,7 +23,7 @@ OOAD
 
 ➁ 비기능 요구사항은 시스템의 품질(Quality)에 큰 영향을 미치므로 Quality Attributes라고도 한다.	 
 
-➂ 기능 요구사항은 시스템의 SW Architecture에 가장 큰 영향을 미친다.	 
+        ➂ 기능 요구사항은 시스템의 SW Architecture에 가장 큰 영향을 미친다.	 
 
 ➃ UP에서 기능 요구사항은 Use-Case Model로, 비기능 요구사항은 Supplementary Specification으로 작성된다.	 
 
@@ -34,7 +34,7 @@ OOAD
 
 ➂ Response Message는 생략이 가능하다.	 
 
-➃ 일반적으로 수평선으로 그려진 Message는 전송시간을 적게 소비하는 Message이다.	 
+        ➃ 일반적으로 수평선으로 그려진 Message는 전송시간을 적게 소비하는 Message이다.	 
 
 5. UP의 Inception과 Elaboration Phase에서 사용되는 Use-Case에 대한 다음의 설명 중 올바른 것은 모두 몇 개 인가?
 
@@ -52,28 +52,28 @@ OOAD
 
 ➂ 3개	 
 
-➃ 4개	 
+        ➃ 4개	 
 
 6. Elaboration 단계에 대한 다음의 설명 중 올바르지 않은 것은?
 ➀ Architecturally Risky Requirements를 찾고 먼저 구현해서 SW Architecture를 결정한다.	 
 
 ➁ Valuable-to-Client Requirements를 찾고 먼저 구현해서 Client의 승인을 받는다.	 
 
-➂ 각 Iteration 마다 구현하기로 정해진 요구사항(Use-Case)들을 온전하게 (Completely) 구현한다.	 
+        ➂ 각 Iteration 마다 구현하기로 정해진 요구사항(Use-Case)들을 온전하게 (Completely) 구현한다.	 
 
 ➃ 각 Iteration이 수행될 때마다, 전에 구현된 요구사항은 계속 반복적으로 테스트 된다.	 
 
 7. UML에 대한 다음의 설명 중 올바르지 않은 것은?
 ➀ UML은 OOAD 개발방법론이 아니다.	 
 
-➁ UML을 잘 사용하면 Object-Oriented 방식으로 생각(디자인)도 잘 할 수 있다.	 
+        ➁ UML을 잘 사용하면 Object-Oriented 방식으로 생각(디자인)도 잘 할 수 있다.	 
 
 ➂ UML로 요구사항/디자인 명세서(Specification) 내용의 일부를 작성할 수 있다.	 
 
 ➃ UML을 상호간에 의사소통의 도구로서 사용할 수도 있다.	 
 
 8. 다음의 System Sequence Diagram에 대한 설명 중 올바른 것은?
-➀ UML 2.0을 구성하는 다이어그램은 아니다.	 
+        ➀ UML 2.0을 구성하는 다이어그램은 아니다.	 
 
 ➁ System을 White-box component로 간주하고 내부까지 자세히 분석한다.	 
 
@@ -82,7 +82,7 @@ OOAD
 ➃ System이 각 System Operation에 대해서 어떻게 내부적으로 동작할 것인가도 고려해서 분석한다.	 
 
 9. UP 기반 OOAD 방법론은 Risk-driven한 방법론입니다. 이에 대한 다음의 설명 중 가장 올바르지 않은 것은?
-➀ UP는 개발 초기에 SW Architecture가 계속 바뀌는 Risk를 줄이고자 한다.	 
+        ➀ UP는 개발 초기에 SW Architecture가 계속 바뀌는 Risk를 줄이고자 한다.	 
 
 ➁ UP는 다양한 SW Architecture를 시도해 봄으로써 Architectural Risk를 줄이고자 한다.	 
 
@@ -91,7 +91,7 @@ OOAD
 ➃ UP는 Risk를 줄이기 위해서 이해관계자가 모두 참여하는 Requirements Workshop을 개최한다.	 
 
 10. OOA (Object-Oriented Analysis)에 대한 다음의 설명 중 가장 올바른 것은?
-➀ 해당 도메인에서 사용되는, 개발할 시스템 내부의 Concepts/Objects를 찾는 단계이다.	 
+        ➀ 해당 도메인에서 사용되는, 개발할 시스템 내부의 Concepts/Objects를 찾는 단계이다.	 
 
 ➁ 개발할 Software Object을 정확하게 정의하는 단계이다.	 
 
@@ -176,12 +176,12 @@ Design Pattern
 
 ➁ 클래스 간 연결에 합성(Composition) 보다는 상속(Inheritance)을 더 선호하면서 설계한다.	 
 
-➂ 클래스의 모듈성(Modularity)을 향상시키기 위해 정보 은닉(Information hiding)과 인터페이스(Interface)를 적극적으로 활용한다.	 
+        ➂ 클래스의 모듈성(Modularity)을 향상시키기 위해 정보 은닉(Information hiding)과 인터페이스(Interface)를 적극적으로 활용한다.	 
 
 ➃ 구체 클래스(Concrete class)를 만들 때 추상 클래스(Abstract class)에서 상속받기보다는 또 다른 구체 클래스로부터 상속받고 불필요한 메쏘드는 예외(Exception) 처리 등을 통해 퇴화(Deprecate)시킨다. .	 
 
 2. 설계 원칙 OCP에 대한 설명으로 적절하지 않은 것은?
-➀ 모든 클래스의 변화가 있을 것으로 생각하고 항상 OCP를 지키는 설계를 하는 것이 현명하다.	 
+        ➀ 모든 클래스의 변화가 있을 것으로 생각하고 항상 OCP를 지키는 설계를 하는 것이 현명하다.	 
 
 ➁ OCP를 달성하기 위해 다형성(Polymorphism)과 추상화(Abstraction)을 이용할 수 있다.	 
 
@@ -199,14 +199,14 @@ Design Pattern
 
 ➂ (b), (c)	 
 
-➃ (a), (b), (c)	 
+        ➃ (a), (b), (c)	 
 
 4. 다음 중 올바르지 않은 설명은?
 ➀ 감시자(Observer) 패턴에서 감시자를 추가할 때 서브젝트(Subject) 자체에 코드를 추가하지 않으면서도 확장할 수 있는 것은 OCP를 적용한 예이다.	 
 
 ➁ 장식자(Decorator) 패턴에서 OCP를 적용했기 때문에 장식자의 추가가 쉽다.	 
 
-➂ 단일체(Singleton) 패턴에서 객체의 생성을 제어하는 것은 OCP의 적용예이다.	 
+        ➂ 단일체(Singleton) 패턴에서 객체의 생성을 제어하는 것은 OCP의 적용예이다.	 
 
 ➃ 모든 설계 문제에 OCP를 준수하려고 하면 오히려 필요 이상으로 설계를 복잡하게 만들고 수행속도를 늦추게 하는 부작용이 있다.	 
 
@@ -215,7 +215,7 @@ Design Pattern
 (a) 추상 팩토리(Abstract factory) 패턴에 적용된 설계원칙이다.
 (b) 저수준(Low level)의 모듈이 고수준(High level)의 모듈에 의존 관계를 가져서는 안된다.
 (c) 인터페이스 선언 화일은 해당 인터페이스를 구현하는 클래스와 동일한 패키지에 배치되어야 한다.
-➀ (a)	 
+        ➀ (a)	 
 
 ➁ (b)	 
 
@@ -233,14 +233,14 @@ Design Pattern
 
 ➂ (a), (b)	 
 
-➃ 답 없음	 
+        ➃ 답 없음	 
 
 7. 감시자(Observer) 패턴과 중재자(Mediator) 패턴에 대해 가장 올바른 것은?.
 ➀ 두 패턴 모두 통신(Communication)에 참여하는 객체들간 강한 결합(Tight coupling)을 만들어낸다.	 
 
 ➁ 중재자 패턴이 적용된 클래스는 코드의 재사용성이 높은 편이다.	 
 
-➂ 중재자 패턴의 구현에서 싱글턴(Singleton) 패턴을 이용해서 중재자 객체를 만드는 경우가 많다.	 
+        ➂ 중재자 패턴의 구현에서 싱글턴(Singleton) 패턴을 이용해서 중재자 객체를 만드는 경우가 많다.	 
 
 ➃ 두 패턴 모두 GoF 분류 기준으로 구조 패턴(Structural pattern)이다.	 
 
@@ -253,7 +253,7 @@ Design Pattern
 
 ➂ 취약성(Fragility)	 
 
-➃ 부동성(Immobility)	 
+        ➃ 부동성(Immobility)	 
 
 9. 패턴의 동작 메커니즘이 나머지 세 패턴과 매우 이질적인 하나는?
 ➀ 전략(Strategy) 패턴	 
@@ -262,13 +262,13 @@ Design Pattern
 
 ➂ 가교(Bridge) 패턴	 
 
-➃ 팩토리 메쏘드(Factory method) 패턴	 
+        ➃ 팩토리 메쏘드(Factory method) 패턴	 
 
 10. MVC 패턴에 대해 올바른 것을 모두 고르면?
 (a) 뷰(View)에 복합체(Composite) 패턴이 적용되어 있다.
 (b) 뷰와 모델(Model) 사이에 감시자 (Observer) 패턴이 적용되어 있다.
 (c) 뷰보다는 모델이 더 자주 변경될 것이라는 가정을 가지고 있다.
-➀ (a), (b)	 
+        ➀ (a), (b)	 
 
 ➁ (a), (c)	 
 
