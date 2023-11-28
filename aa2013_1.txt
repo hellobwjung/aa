@@ -1,0 +1,442 @@
+2024년 Associate Architect 양성과정 선발 평가(1차)
+OOAD
+1. OOAD (Object-Oriented Analysis and Design)에 대한 다음의 일반적인 설명 중 올바르지 않은 것은?
+➀ Domain Model은 개발하려는 SW에 어떤 Conceptual Class/Object이 있는지 찾는다.	 
+
+➁ OOA (Object-Oriented Analysis) 단계에서는 Domain Model이 핵심이다.	 
+
+    ➂ OOD (Object-Oriented Design) 단계에서는 Sequence Diagram 보다 Class Diagram이 더 중요하다.	 
+
+➃ OOAD에서는, 구현할 Use-Cases에 대해, Sequence Diagrams과 Class Diagram을 반복적(Iterative)이고 점증적(Incremental)으로 작성한다.	 
+
+2. Object-Oriented Program에 대한 다음의 설명 중 올바르지 않은 것은?
+➀ Object는 Data (State)와 이를 사용하는 Operation (Behavior)으로 정의된다.	 
+
+➁ Class는 동일한 속성(Properties)을 갖는 a set of Objects을 하나로 묶어주는 Description이다.	 
+
+➂ Objects 간의 Communication을 통해 시스템이 제공해야 하는 기능을 실현한다.	 
+
+    ➃ 효율적인 데이터 구조(Data Structure)가 기능 구현의 핵심 요소이다.	 
+
+3. 다음의 요구사항(Requirements)에 대한 설명 중 올바르지 않은 것은?
+➀ 요구사항(Requirements)은 일반적으로 크게 기능 요구사항과 비기능 요구사항으로 구분할 수 있다.	 
+
+➁ 비기능 요구사항은 시스템의 품질(Quality)에 큰 영향을 미치므로 Quality Attributes라고도 한다.	 
+
+➂ 기능 요구사항은 시스템의 SW Architecture에 가장 큰 영향을 미친다.	 
+
+➃ UP에서 기능 요구사항은 Use-Case Model로, 비기능 요구사항은 Supplementary Specification으로 작성된다.	 
+
+4. 다음의 Sequence Diagram의 Message에 대한 설명 중 올바르지 않은 것은?
+➀ Synchronous Message는 Sender가 메시지를 보낸 후, Response Message가 올 때까지 기다린다.	 
+
+➁ Asynchronous Message는 Sender가 메시지를 보낸 후, Response Message를 기다리지 않는다.	 
+
+➂ Response Message는 생략이 가능하다.	 
+
+➃ 일반적으로 수평선으로 그려진 Message는 전송시간을 적게 소비하는 Message이다.	 
+
+5. UP의 Inception과 Elaboration Phase에서 사용되는 Use-Case에 대한 다음의 설명 중 올바른 것은 모두 몇 개 인가?
+
+(ㄱ) 개발 후반에 결정될 HW나 UI에 영향을 주지 않는 추상적인 표현을 사용하는 것이 좋다.
+(ㄴ) 구체적인 Design 및 구현 내용을 미리 가정하고 작성하지 않는 것이 좋다.
+(ㄷ) 시스템이 내부적으로 어떻게 동작할 지에 대해서까지 자세히 작성할수록 좋다.
+(ㄹ) 시스템을 구성하는 각종 Component들을 인식하는데 직접적으로 사용된다.
+(ㅁ) Construction Phase까지 지속적으로 Refinement 해야 한다.
+(ㅂ) 외부 Actors가 개발할 시스템을 어떻게 사용하는지를 묘사한 Text Story이다.
+(ㅅ) Use-Case는 일반적으로 Use-Case Diagram을 의미하며, 이 Diagram을 그리는 것이 가장 중요하다.
+(ㅇ) Use-Case의 Actors는 시스템 사용하는 외부의 사람(사용자)을 의미하며, 다른 시스템을 지칭하지는 않는다
+➀ 1개	 
+
+➁ 2개	 
+
+➂ 3개	 
+
+➃ 4개	 
+
+6. Elaboration 단계에 대한 다음의 설명 중 올바르지 않은 것은?
+➀ Architecturally Risky Requirements를 찾고 먼저 구현해서 SW Architecture를 결정한다.	 
+
+➁ Valuable-to-Client Requirements를 찾고 먼저 구현해서 Client의 승인을 받는다.	 
+
+➂ 각 Iteration 마다 구현하기로 정해진 요구사항(Use-Case)들을 온전하게 (Completely) 구현한다.	 
+
+➃ 각 Iteration이 수행될 때마다, 전에 구현된 요구사항은 계속 반복적으로 테스트 된다.	 
+
+7. UML에 대한 다음의 설명 중 올바르지 않은 것은?
+➀ UML은 OOAD 개발방법론이 아니다.	 
+
+➁ UML을 잘 사용하면 Object-Oriented 방식으로 생각(디자인)도 잘 할 수 있다.	 
+
+➂ UML로 요구사항/디자인 명세서(Specification) 내용의 일부를 작성할 수 있다.	 
+
+➃ UML을 상호간에 의사소통의 도구로서 사용할 수도 있다.	 
+
+8. 다음의 System Sequence Diagram에 대한 설명 중 올바른 것은?
+➀ UML 2.0을 구성하는 다이어그램은 아니다.	 
+
+➁ System을 White-box component로 간주하고 내부까지 자세히 분석한다.	 
+
+➂ External Actor와 System 간의 모든 Interaction을 System Operation으로 선정한다.	 
+
+➃ System이 각 System Operation에 대해서 어떻게 내부적으로 동작할 것인가도 고려해서 분석한다.	 
+
+9. UP 기반 OOAD 방법론은 Risk-driven한 방법론입니다. 이에 대한 다음의 설명 중 가장 올바르지 않은 것은?
+➀ UP는 개발 초기에 SW Architecture가 계속 바뀌는 Risk를 줄이고자 한다.	 
+
+➁ UP는 다양한 SW Architecture를 시도해 봄으로써 Architectural Risk를 줄이고자 한다.	 
+
+➂ UP는 Client가 최종 개발 산출물과 일부 기능에 대해 인수 거부를 선언하는 Risk를 줄이고자 한다.	 
+
+➃ UP는 Risk를 줄이기 위해서 이해관계자가 모두 참여하는 Requirements Workshop을 개최한다.	 
+
+10. OOA (Object-Oriented Analysis)에 대한 다음의 설명 중 가장 올바른 것은?
+➀ 해당 도메인에서 사용되는, 개발할 시스템 내부의 Concepts/Objects를 찾는 단계이다.	 
+
+➁ 개발할 Software Object을 정확하게 정의하는 단계이다.	 
+
+➂ 사용하는 개발프로세스에 따라 한 번에 수행될 수도 있고, 여러 번 Increment하게 진행될 수도 있다.	 
+
+➃ OOA 단계에서는 Class Diagram의 일종인 Domain Model을 개발한다.	 
+
+11. UP Environment Discipline에서 작성되는 Artifact로서, 계획하는 프로젝트에서 앞으로 생성할 UP Artifacts와 사용할 Practices의 선택 결과를 정리한 Artifact는 무엇인가요?
+(최대길이 : 4000)
+ 
+
+12. 다음의 Statechart Diagram에서, start, e8, e7, e10, e9의 순서로 이벤트가 차례대로 발생될 때, 최종적으로 도달된 상태는 무엇인가요?
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+13. 다음의 Class Diagram에서 Register 클래스에는 모두 몇 개의 “Private” attribute이 정의되나요?
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+14. 다음의 Sequence Diagram에서, register(matNo, exam) operation이 실행되지 않고 시나리오가 종료되었다고 가정할 때, login(name, pw) operation의 가능한 최소 실행 횟수와 최대 실행 횟수의 합은?
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+15. 다음은 UP의 Environment Discipline에서 작성하는 Development Case를 설명하는 그림입니다. Use-Case Model이 Construction Phase에서 빈칸으로 되어 있는 이유를 논리적이고 구체적으로 설명하세요.
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+16. 다음은 교재의 POS 예제의 “Process Sale” Use-Case와 관련된 Package Diagram의 일부입니다. 기본적인 3 Layered Architecture를 가정합니다. 외부에 있는 Cashier로부터 시작된 “endSale( )”과 UI Layer의 ProcessSale Frame 클래스에서 시작된 “endSale( )”의 차이점을 설명하세요. 단, 현재 시점을 UP의 Construction Phase 후반부라고 가정하고, 이를 반영해서 설명하세요. (오답 예: “두 Operation의 위치, 시작점, Source, Destination 등이 다르다.”)
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+17. 다음은 학생이 학교 시스템에 로그인 후 등록(register)을 하는 시나리오에 대한 Sequence Diagram입니다. 일반적인 로그인 및 등록 시나리오를 기준으로, 이 Sequence Diagram의 문제점을 하나 찾고, 해결방법을 제시하세요.
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+18. (문항17)에서 발견한 문제점을 해결하고, 로그인을 최대 6번까지 시도할 수 있으며, 로그인 시도 횟수가 4회 이상일 때에는 매번 경고 메시지를 내보내도록, (문항17)의 Sequence Diagram을 수정 작성하세요.
+  찾아보기...
+현재 첨부되어 있는 파일 : 17035482_정병욱_OOAD_설계형18.png
+
+19. 아래의 Class Diagram을 보고, Register Class의 body를 JAVA나 C++ Code로 최대한 정확하게 작성하세요.
+
+
+ 
+  찾아보기...
+현재 첨부되어 있는 파일 : 17035482_정병욱_OOAD_설계형19.txt
+
+20. 다음의 가상의 Sequence Diagram을 보고, System Operation aaa( )의 body와 Operation b( )의 body를 수도코드 수준에서 최대한 정확하게 작성하세요.
+
+
+
+ 
+  찾아보기...
+현재 첨부되어 있는 파일 : 17035482_정병욱_OOAD_설계형20.txt
+
+Design Pattern
+1. 좋은 설계를 이끌어내는 지침으로 가장 옳은 것은?
+➀ 각 클래스는 메쏘드를 한 개만 가지게 설계하는 것이 좋다.	 
+
+➁ 클래스 간 연결에 합성(Composition) 보다는 상속(Inheritance)을 더 선호하면서 설계한다.	 
+
+➂ 클래스의 모듈성(Modularity)을 향상시키기 위해 정보 은닉(Information hiding)과 인터페이스(Interface)를 적극적으로 활용한다.	 
+
+➃ 구체 클래스(Concrete class)를 만들 때 추상 클래스(Abstract class)에서 상속받기보다는 또 다른 구체 클래스로부터 상속받고 불필요한 메쏘드는 예외(Exception) 처리 등을 통해 퇴화(Deprecate)시킨다. .	 
+
+2. 설계 원칙 OCP에 대한 설명으로 적절하지 않은 것은?
+➀ 모든 클래스의 변화가 있을 것으로 생각하고 항상 OCP를 지키는 설계를 하는 것이 현명하다.	 
+
+➁ OCP를 달성하기 위해 다형성(Polymorphism)과 추상화(Abstraction)을 이용할 수 있다.	 
+
+➂ 다른 설계원칙인 LSP를 위반한 경우 프로그래머의 대응에 따라 OCP가 연쇄적으로 위반될 수도 있다.	 
+
+➃ OCP에서 말하는 수정(Modification)은 기존 코드에 대한 변경을 의미한다.	 
+
+3. 다음 중 객체 합성(Object composition)과 위임(Delegation)을 통해 동작하는 패턴을 모두 고른 것은?
+(a) 장식자(Decorator) 패턴
+(b) 반복자(Iterator) 패턴
+(c) 팩토리 메쏘드(Factory method) 패턴
+➀ (a), (b)	 
+
+➁ (a), (c)	 
+
+➂ (b), (c)	 
+
+➃ (a), (b), (c)	 
+
+4. 다음 중 올바르지 않은 설명은?
+➀ 감시자(Observer) 패턴에서 감시자를 추가할 때 서브젝트(Subject) 자체에 코드를 추가하지 않으면서도 확장할 수 있는 것은 OCP를 적용한 예이다.	 
+
+➁ 장식자(Decorator) 패턴에서 OCP를 적용했기 때문에 장식자의 추가가 쉽다.	 
+
+➂ 단일체(Singleton) 패턴에서 객체의 생성을 제어하는 것은 OCP의 적용예이다.	 
+
+➃ 모든 설계 문제에 OCP를 준수하려고 하면 오히려 필요 이상으로 설계를 복잡하게 만들고 수행속도를 늦추게 하는 부작용이 있다.	 
+
+5. 설계 원칙 DIP에 대한 설명으로 올바른 것을 모두 고르면?
+
+(a) 추상 팩토리(Abstract factory) 패턴에 적용된 설계원칙이다.
+(b) 저수준(Low level)의 모듈이 고수준(High level)의 모듈에 의존 관계를 가져서는 안된다.
+(c) 인터페이스 선언 화일은 해당 인터페이스를 구현하는 클래스와 동일한 패키지에 배치되어야 한다.
+➀ (a)	 
+
+➁ (b)	 
+
+➂ (a), (b)	 
+
+➃ (b), (c)	 
+
+6. 팩토리 메쏘드(Factory method) 패턴의 정의에 사용된 설계 개념을 모두 고른 것은?
+
+(a) 객체 합성 (Object composition)
+(b) 캡슐화(Encapsulation)
+➀ (a)	 
+
+➁ (b)	 
+
+➂ (a), (b)	 
+
+➃ 답 없음	 
+
+7. 감시자(Observer) 패턴과 중재자(Mediator) 패턴에 대해 가장 올바른 것은?.
+➀ 두 패턴 모두 통신(Communication)에 참여하는 객체들간 강한 결합(Tight coupling)을 만들어낸다.	 
+
+➁ 중재자 패턴이 적용된 클래스는 코드의 재사용성이 높은 편이다.	 
+
+➂ 중재자 패턴의 구현에서 싱글턴(Singleton) 패턴을 이용해서 중재자 객체를 만드는 경우가 많다.	 
+
+➃ 두 패턴 모두 GoF 분류 기준으로 구조 패턴(Structural pattern)이다.	 
+
+8. 다음 상황과 가장 밀접한 설계 악취(Design smell)를 고르시오.
+
+“주어진 시스템을 다른 곳에서 재사용할 수 있는 컴포넌트(Component)로 분해하기 어렵다”
+➀ 경직성(Rigidity)	 
+
+➁ 불투명성(Opacity)	 
+
+➂ 취약성(Fragility)	 
+
+➃ 부동성(Immobility)	 
+
+9. 패턴의 동작 메커니즘이 나머지 세 패턴과 매우 이질적인 하나는?
+➀ 전략(Strategy) 패턴	 
+
+➁ 상태(State) 패턴	 
+
+➂ 가교(Bridge) 패턴	 
+
+➃ 팩토리 메쏘드(Factory method) 패턴	 
+
+10. MVC 패턴에 대해 올바른 것을 모두 고르면?
+(a) 뷰(View)에 복합체(Composite) 패턴이 적용되어 있다.
+(b) 뷰와 모델(Model) 사이에 감시자 (Observer) 패턴이 적용되어 있다.
+(c) 뷰보다는 모델이 더 자주 변경될 것이라는 가정을 가지고 있다.
+➀ (a), (b)	 
+
+➁ (a), (c)	 
+
+➂ (b), (c)	 
+
+➃ (a), (b), (c)	 
+
+11. 다음 클래스 다이어그램을 자바 혹은 C++로 구현했을 때, 에러없이 컴파일되는 코드를 모두 고르시오.
+
+
+
+ 
+
+(a) A1 a = new A1( ); // in Java
+  A1 *a = new A1; // in C++
+(b) A1 b = new C3( ); // in Java
+  A1 *b = new C3; // in C++
+(c) A1 c = new C1( ); // in Java
+  A1 *c = new C1; // in C++
+(d) C1 d = new C3( ); // in Java
+  C1 *d = new C3; // in C++
+(e) C1 e = new C2( ); // in Java
+  C1 *e = new C2; // in C++
+(f) A1 f = new C4( ); // in Java
+  A1 *f = new C4; // in C++
+(g) C5 g = new C1( ); // in Java
+  C5 *g = new C1; // in C++
+(h) Int1 h = new C3( ); // in Java
+  Int1 *h = new C3; // in C++
+(최대길이 : 4000)
+ 
+
+12. 다음은 GRASP 설계 원칙 중 Pure Fabrication에 대한 설명이다. 다음 빈칸 (a)와 (b)에 알맞는 용어를 각각 쓰시오.
+
+“(    (a)      ) 원칙이 제시하는 해결책은 적합하지 않을 때, 높은 응집도(High Cohesion)와 낮은 결합도(Low Coupling) 원칙을 달성하도록 하면서 재사용성을 감안하여 (    (b)     ) 모델에 등장하지 않는 가공의 클래스에 책임(Responsibility)을 부여한다”
+(최대길이 : 4000)
+ 
+
+13. 아래 그림과 같이 리팩토링하였다. 해당 수정을 통해 직접적으로 만족되는 SOLID 원칙 1개를 쓰시오.
+
+
+
+ 
+(최대길이 : 4000)
+ 
+
+14. 다음 설명에 가장 적합한 GoF 패턴 이름을 쓰시오.
+
+"이 패턴의 의도(Intent)는 기존 객체에 동적으로 새로운 책임(Responsibility)을 동적으로(Dynamically) 추가할 수 있게 하는 것이다. 어떤 클래스에 새로운 책임을 추가하고자 할 때 상속(Inheritance)을 이용하여 서브클래스(Subclass)를 만들어서 해당 책임에 관련된 메쏘드를 추가할 수도 있지만, 이렇게 하면 정적으로(Statically) 된다는 단점이 있다. 이 패턴은 서브클래스를 생성하는 것보다 유연한 방법을 제공한다. 대표적인 예로 Java 언어의 I/O 관련된 클래스 구성에 이 패턴이 적용되어 있다. 이 패턴은 목적으로 보면 구조적(Structural) 패턴에 속한다”
+(최대길이 : 4000)
+ 
+
+15. 빌더(Builder) 패턴을 적용한 프로그램을 다음과 같이 작성하였다고 가정하자. 패턴의 적용 관점에서 잘못된 부분을 지적하고 수정 방안을 간략히 제시하시오. 단 컴파일/런타임 에러 등은 없고 주석이 달린 부분들이 적절히 구현되어 있다고 가정하시오.
+
+public class Main {
+  public static void main (Strings [] args) {
+    Builder builder = new ConcreteBuilder();
+    Director director = new Director(builder);
+    builder.buildPartA();
+    builder.buildPartB();
+    System.out.println(“Product = “ + director.getProduct());
+  }
+}
+
+interface Builder {
+  public void buildPartA();
+  public void buildPartB();
+  public Product getProduct();
+}
+
+class ConcreteBuilder implements Builder {
+  Product product;
+  public void buildPartA() { // 필요한 사항들의 구현이 잘 되어 있다고 가정함 }
+  public void buildPartB() { // 필요한 사항들의 구현이 잘 되어 있다고 가정함 }
+  public Product getProduct() { return product; }
+}
+
+class Product {
+  // 기타 필요한 사항들의 구현이 잘 되어 있다고 가정함
+}
+
+class Director {
+  Builder builder;
+  public Product getProduct() { return builder.getProduct(); }
+  public Director (Builder builder) { this.builder = builder; }
+  // 기타 필요한 사항들의 구현이 잘 되어 있다고 가정함
+}
+(최대길이 : 4000)
+ 
+
+16. 다음 코드를 보고 물음에 대해 답하시오.
+class P {
+  public T m(S x) { ... }
+}
+
+class C extends P {
+  public T1 m(S1 x) { ... }
+}
+
+위의 클래스 정의가 에러 없이 컴파일되고 C의 m 메쏘드가 P의 m 메쏘드를 오버라이드(override)하기 원할 때,
+(a) T1 타입과 T 타입의 가능한 모든 관계를 말하시오. (예를 들어 "T1이 T의 하위 타입 혹은 같은 타입이어야 한다" 등으로 표현할 것)
+(b) S 타입과 S1 타입의 가능한 모든 관계를 말하시오.
+(최대길이 : 4000)
+ 
+
+17. 다음과 같은 주장이 맞는지 혹은 틀리는지 답하고, 그에 대한 근거를 제시하시오.
+
+"어떤 클래스가 서로 다른 인터페이스(Interface) 두개를 구현하고 있다면 이는 SRP를 위반한 것이라 볼 수 있다. 이를 시정하기 위해서는 두 인터페이스를 각기 다른 클래스에서 구현하도록 하고, 이들과 Composition 관계를 가지는 클래스를 만들면 SRP를 만족하게 된다."
+(최대길이 : 4000)
+ 
+
+18. 아래 그림에 표현된 것과 같이 클라이언트(Client)가 기대하고 있는 인터페이스는 IService 인터페이스로 선언되어 있으며 OldService 클래스는 구체 클래스(Concrete class)로 이미 구현되어 있다고 가정한다.
+
+
+
+ 
+
+설계하고자 하는 적응자(Adapter) ObjectAdapter와 ClassAdapter는 다음과 같은 동작을 수행해야 한다.
+- calcA()를 호출하면 OldService의 Service1()을 호출한 결과 값을 리턴
+- calcB()를 호출하면 OldService의 Service2()을 호출한 결과 값을 리턴
+- calcBoth()를 호출하면 OldService의 Service1()과 Service 2() 결과 값을 합한, 즉 Service1() + Service 2() 값을 리턴
+<< 답안 작성시 UML 다이어그램으로 표현하지 말고 반드시 코드(Java 혹은 C++)로 작성하시기 바랍니다 >>
+
+(a) 객체 적응자(Object Adapter)로 구현된 ObjectAdapter 클래스를 자바 혹은 C++ 언어로 제시하시오.
+(b) 클래스 적응자(Class Adapter)로 구현된 ClassAdapter 클래스를 자바 혹은 C++ 언어로 제시하시오.
+  찾아보기...
+현재 첨부되어 있는 파일 : 17035482_정병욱_Design Pattern_설계형18.txt
+
+19. 다음 코드에 싱글턴 패턴을 적용하시오. 멀티쓰레드(Multi-thread) 사용을 고려할 필요는 없으며 Java 혹은 C++ 언어 둘 중 하나로 코드를 제시하시오.
+// in Java
+class X {
+  private int x1;
+  public int x2;
+
+  public void Set_x1(int p) {
+    this.x1 = p;
+  }
+  public X (int p1, int p2) {
+    this.x1 = p1;
+    this.x2 = p2;
+ }
+}
+
+
+// in C++
+class X {
+  private: int x1;
+  public:
+   int x2;
+   void Set_x1(int p) {
+     this.x1 = p;
+   }
+   X(int p1, int p2) {
+      this.x1 = p1;
+      this.x2 = p2;
+   }
+}
+  찾아보기...
+현재 첨부되어 있는 파일 : 17035482_정병욱_Design Pattern_설계형19.txt
+
+20. 변수(소문자 캐릭터 1개로 표현되며 저장된 값은 float 타입)와 사칙 연산자(Operator) - 덧셈(Plus), 뺄셈(Minus), 곱셈(Mult), 나눗셈(Div) - 로 구성된 임의의 수식(Expression)을 장식자(Decorator) 패턴을 이용해서 표현하고자 한다. 연산의 결과는 항상 실수(float 타입)라고 가정하며, 모든 사칙 연산자의 피연산자(Operand)의 갯수는 두 개로 고정한다. 즉, 단항 (Unary) 연산자는 지원할 필요 없다.
+
+(a) 위 내용을 장식자(Decorator) 패턴을 사용해서 설계한 코드(자바 혹은 C++)를 쓰시오. (그림으로 부가적으로 표현할 수는 있으나 반드시 코드로 작성)
+(b) 해당 설계를 기반으로 다음 예제의 수식들을 만들어내는 코드를 보이시오.
+가. a
+나. (a - b) * c
+다. ( ( c * d ) / ( a - b ) ) * b
+  찾아보기...
+현재 첨부되어 있는 파일 : 17035482_정병욱_Design Pattern_설계형20.txt
+
+
