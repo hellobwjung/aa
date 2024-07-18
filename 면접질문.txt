@@ -1,0 +1,95 @@
+Software Architect?
+A Software development expert who makes high-level design choices and dictates technical standards, including software coding standards, tools and platforms.
+High level 설계를 선택하고 소프트웨어 코딩 표준, 도구 및 플랫폼을 포함한 기술 표준을 지시하는 소프트웨어 개발 전문가입니다.
+
+Software Architecture?
+Software architecture refers to the high-level structures of a software system and the discipline of creating such structures
+소프트웨어 아키텍처는 소프트웨어 시스템의 상위 수준 구조와 그러한 구조를 만드는 분야를 나타냅니다.
+-	Schematic Architecture
+	A structured and visual representation of the structural elements of a target system, their roles, and relationships among the elements. A stable foundation for making further architectural decisions.
+	대상 시스템의 구조적 요소, 해당 역할, 요소 간 관계를 체계적이고 시각적으로 표현한 것입니다. 추가 아키텍처 결정을 위한 안정적인 기반
+-	Design for Architecture View
+	1) Functional view, - 함수 data처리 
+	2) Information view, - data관점의 설계
+	3) Behavior view, - 실행순서 관련, 기능이 아니다. 
+	4) Deployment view, -
+-	Design for NFR
+
+SD) Class Diagram있는데 구조를 나타내는 Compound Diagram있나?
+-	Class Diagram + Sequence Diagram: 클래스 구조와 객체 간의 상호작용을 동시에 보여줌으로써 정적 구조와 동적 행동을 결합하여 이해를 돕습니다.
+-	Component Diagram + Deployment Diagram: 소프트웨어 구성 요소와 물리적 배포 구성을 함께 보여줌으로써 소프트웨어의 논리적 구조와 물리적 배포를 연계시켜 설명합니다.
+-	Package Diagram + Class Diagram: 패키지 간의 관계를 고수준에서 보여주면서 각 패키지 내부의 클래스 구조를 세부적으로 나타냅니다.
+SEI 4+1 View
+-	Logical / Structural View, - Functionality
+-	Process / Behavior View,  - performance
+-	Development(Developer) / Implementation View, - software management
+-	Physical / Deployment View. – system topology
+-	+1 Scenario / Use Case View
+
+ISO 9126, Conventional NFRs
+-	Functionality
+-	Reliability
+-	Usability
+-	Efficiency
+-	Maintainability
+-	Portability
+
+DFD Diagram
+-	Process (O)
+-	Terminal (ㅁ)
+-	Data Store (=)
+-	Data Flow ()
+
+DFD for boundary Context
+-	System Functionality ↔ Process of DFD
+-	Elements in Boundary ↔ Terminal of DFD
+-	Persistent Data ↔ Data Store of DFD
+-	Informational Flow ↔ Data Flow of DFD
+
+UCD include, extend?
+-	Include: 한 use case가 다른 use case를 포함하는 관계를 나타냅니다. 이는 한 use case가 수행되는 과정에서 다른 use case가 필수적으로 포함되어야 하는 경우에 사용됩니다.
+-	Extend: 한 use case가 다른 use case를 확장하는 관계를 나타냅니다. 이는 한 use case가 수행되는 과정에서 다른 use case의 기능을 추가로 사용하는 경우에 사용됩니다.
+
+Design 단계에서의 High Level Class Diagram  Persistent data
+ Functional Component 
+
+Key Elements of CD
+-	Class
+-	Relationaships
+	Dependency   ---------▷ 
+	Association    ────>
+	Aggregation ◇────>
+	Composition ◆────>
+	Inheritance    ────▷
+
+HAL의 주된 사용 용도는? 어떨 때 쓰면 좋은가?
+-	HW Specific을 user에게 숨기고 interface를 제공 (SD)
+-	HW와 SW분리하여 HW 호완성 보장하고 SW 개발 및 유지보수 용이성 제공
+
+Mediator pattern vs Facace pattern차이?
+Mediator 패턴은 객체 간의 상호작용을 중앙 집중화하여 관리하고, Facade 패턴은 복잡한 서브시스템의 인터페이스를 단순화하여 사용자가 쉽게 접근할 수 있도록 합니다.
+
+Required Interface 용도
+-	SW 시스템 유지 보수 / 확장 쉽게 한다
+-	가변적 기능은 required interface 밖에서 구현 ex) template method pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
