@@ -354,5 +354,129 @@ Types of Quality Aspects
 -	External Quality (외부품질): 사용자가 소프트웨어와 상호작용할 때 경험하는 품질
 -	Quality in Use (사용품질): 소프트웨어가 실제 사용 환경에서 어떻게 작동하는지를 평가하는 품질
 
+What are the agile constructs which assist requirement engineering?
+-	애자일 방법론에서 요구 사항 공학을 지원하는 주요 구성 요소는 
+-	사용자 스토리, 
+-	제품 백로그, 
+-	스프린트 백로그, 
+-	스크럼 미팅, 
+-	스프린트 리뷰, 
+-	스프린트 회고, 
+-	작업 항목, 
+-	일관된 피드백 루프입니다.
+
+How do you define/refine requirements for Platform Software?
+-	이해관계자 식별 및 요구 사항 수집, 
+-	기능적 및 비기능적 요구 사항 정의, 
+-	모듈화 및 구성 요소 정의, 
+-	요구 사항 문서화, 
+-	요구 사항 검토 및 검증, 
+-	요구 사항 정제 및 우선순위 지정, 
+-	변경 관리, 
+-	피드백 루프를 포함합니다
+
+Process of Requirement Engineering?
+-	요구 사항 수집, 
+-	요구 사항 분석, 
+-	요구 사항 정의, 
+-	요구 사항 검증, 
+-	요구 사항 관리, 
+-	요구 사항 추적
+
+Agile Constructs for Requirement Management
+-	사용자 스토리, 
+-	제품 백로그, 
+-	스프린트 백로그, 
+-	스프린트 계획 회의, 
+-	스프린트 리뷰, 
+-	스프린트 회고, 
+-	작업 항목, 
+-	일관된 피드백 루프
+
+Requirement for Platform Software
+-	기능적 요구 사항, FR
+-	비기능적 요구 사항, NFR 
+-	구성 요소 및 모듈화, 
+-	사용자 경험, 
+-	배포 및 운영 요구 사항, 
+-	기술 및 표준
+
+Non-Functional Requirements for Architectural Requirement? 
+아키텍처 요구 사항에서 비기능적 요구 사항
+-	시스템의 성능, Performance
+-	신뢰성, Reliability
+-	보안성, Security
+-	유지 보수성, Maintainability
+-	호환성, Compatibility
+-	사용성, Usability
+-	배포 및 운영, Deployment and Operations
+-	에너지 효율성, Energy Efficiency
+
+Architecture Styles
+-	Batch Sequential, Pipi-n-Filter
+-	Layered, MVC
+-	Blackboard, Shared Repository
+-	Micro Kernel, Micro Service
+-	Dispatch, Broker
+
+Understanding Architecture Styles
+-	Situation
+-	Structure with Components and Connectors
+-	Pros and Cons
+
+When would you use <X architecture style>?
+What are the pros and cons of using <X architecture style>?
+
+Explain the mechanism of <X architecture style>?
+
+How do you merge multiple architecture styles?
+
+Why do we define Interactions among components?
+
+How to evaluate the Applicability of Architect Style?
+-	Situation
+-	Pros and Cons
+
+How to Derive Skeleton Architecture from Styles?
+-	Instantiating each selected Style
+-	Merging Styles
+
+Defining Interactions among Components in the Architecture
+
+Essential Viewpoints
+-	Functional
+-	Information
+-	Behavior
+-	Deployment Views
+
+What is the procedure of applying <X viewpoint>?
+
+Architecture Design for Conventional NFRs
+-	Tactics for Common NFRs: Available
+Architecture Design for Non-Conventional NFRs
+-	Tactics to be devised by Architectures
+Impact of Tactics on Views
+
+What will be effective tactics for <X conventional NFR>?
+
+Justify <X tactic> proposed in your CEP final report?
+
+ATAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
